@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/paola/Desktop/UnityProjects/MultiplayerBodySwap/MultiplayerBodySwap
+C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57249
-Successfully changed project path to: C:/Users/paola/Desktop/UnityProjects/MultiplayerBodySwap/MultiplayerBodySwap
-C:/Users/paola/Desktop/UnityProjects/MultiplayerBodySwap/MultiplayerBodySwap
+55783
+Successfully changed project path to: C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap
+C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.43 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 107.08 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/paola/Desktop/UnityProjects/MultiplayerBodySwap/MultiplayerBodySwap/Assets
+[Subsystems] Discovering subsystems at path C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,59 +35,287 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003134 seconds.
+Registered in 0.002303 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.32 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 71.97 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.640 seconds
+- Completed reload, in  1.655 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014594 seconds.
+Registered in 0.013301 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.34 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 70.81 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
+- Completed reload, in  2.344 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 9 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2626 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.3 MB.
-System memory in use after: 124.3 MB.
+System memory in use before: 123.5 MB.
+System memory in use after: 123.4 MB.
 
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3073.
-Total: 3.670500 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.087500 ms MarkObjects: 3.171000 ms  DeleteObjects: 0.104800 ms)
+Total: 4.130400 ms (FindLiveObjects: 0.549600 ms CreateObjectMapping: 0.205200 ms MarkObjects: 3.237600 ms  DeleteObjects: 0.136000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/AHMED_FIX.fbx
-  artifactKey: Guid(a5cf0446f944a5743a45f4c31aba960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/AHMED_FIX.fbx using Guid(a5cf0446f944a5743a45f4c31aba960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d51afacfd6e6859edacd352fcaaefe7') in 0.575195 seconds
-  Import took 0.587383 seconds .
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Opacity.png
+  artifactKey: Guid(2f7daf801163b674380c39b26c289a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Opacity.png using Guid(2f7daf801163b674380c39b26c289a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f20f44c93119c5e86f02509aaf97c0') in 0.138267 seconds
+  Import took 0.143940 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2635.111952 seconds.
-  path: Assets/Resources/AHMED_FIX.fbx
-  artifactKey: Guid(a5cf0446f944a5743a45f4c31aba960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/AHMED_FIX.fbx using Guid(a5cf0446f944a5743a45f4c31aba960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3257dc1a43682f012be00bf696b5afbf') in 0.151820 seconds
-  Import took 0.165232 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Normal.png
+  artifactKey: Guid(783ddfdb69e283a43a967adecab5bb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Normal.png using Guid(783ddfdb69e283a43a967adecab5bb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746797c172debc99c25092fa3820703c') in 0.024837 seconds
+  Import took 0.030465 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.178527 seconds.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Gloss.png
+  artifactKey: Guid(18ecd5183dc34c0449f26e42ed447e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Gloss.png using Guid(18ecd5183dc34c0449f26e42ed447e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481cb92de73aecfc791757d8ccd4fafc') in 0.029390 seconds
+  Import took 0.034085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Gloss.png
+  artifactKey: Guid(895c80eba229bf843ad7662f17d08781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Gloss.png using Guid(895c80eba229bf843ad7662f17d08781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b58cce234b0fb6d73b7e6b1f4ed12b') in 0.015479 seconds
+  Import took 0.020303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Normal.png
+  artifactKey: Guid(e907e162273d1d54c92a8f57a8599965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Normal.png using Guid(e907e162273d1d54c92a8f57a8599965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34af1aee0b864e90368bac368a5dfa47') in 0.014748 seconds
+  Import took 0.019767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Opacity.png
+  artifactKey: Guid(14ac2e5f1e123b843a77836e8940b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Opacity.png using Guid(14ac2e5f1e123b843a77836e8940b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59277cdd70d7308bff118c6b24b161ed') in 0.014944 seconds
+  Import took 0.020261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Opacity.png
+  artifactKey: Guid(61687ed327959964c830442979b018c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Opacity.png using Guid(61687ed327959964c830442979b018c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aac458670cc97971d7dd556f3f1613') in 0.014026 seconds
+  Import took 0.018933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Diffuse.png
+  artifactKey: Guid(ae557263152853941bd9904532e5976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Diffuse.png using Guid(ae557263152853941bd9904532e5976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e0890d5d3a588484e054a36cfcec1a') in 0.017954 seconds
+  Import took 0.023122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Specular.png
+  artifactKey: Guid(068b9fa80d8bec8429004d52c4a32d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Specular.png using Guid(068b9fa80d8bec8429004d52c4a32d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7946ada2aedb3a48c4f12caea9e7f8') in 0.016494 seconds
+  Import took 0.022144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Opacity.png
+  artifactKey: Guid(ecd17fc9d6a2be9499e4f94d8fb3fab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Opacity.png using Guid(ecd17fc9d6a2be9499e4f94d8fb3fab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb673d00e7ea9324a9d129b7a5374db') in 0.014966 seconds
+  Import took 0.020104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Gloss.png
+  artifactKey: Guid(7f7b3b42bb18d9a45b96d78f6cff6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Gloss.png using Guid(7f7b3b42bb18d9a45b96d78f6cff6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0eb63cfd948375376373509755a178') in 0.016394 seconds
+  Import took 0.022119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Specular.png
+  artifactKey: Guid(9727b27815a06cf43ac44d99b3fe3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Specular.png using Guid(9727b27815a06cf43ac44d99b3fe3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9a0a20df4821226198b940bf9315d5') in 0.015774 seconds
+  Import took 0.021086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Diffuse.png
+  artifactKey: Guid(36f2320611e0024469c7321a9567cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Diffuse.png using Guid(36f2320611e0024469c7321a9567cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152c2c066eb526bb4969322acd232f95') in 0.015255 seconds
+  Import took 0.021226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Diffuse.png
+  artifactKey: Guid(4a330bee24a3a43499cfafb5b3cf18cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Diffuse.png using Guid(4a330bee24a3a43499cfafb5b3cf18cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062c114994e549c71f7f31f6f6244a66') in 0.016662 seconds
+  Import took 0.022309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Diffuse.png
+  artifactKey: Guid(0cba026aad7d0c849bc17b3cc9beddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Diffuse.png using Guid(0cba026aad7d0c849bc17b3cc9beddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fa10d16f863aee5400667517782314') in 0.018228 seconds
+  Import took 0.024376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Gloss.png
+  artifactKey: Guid(9ed89df5771e6e74f8e37a72f06e9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Gloss.png using Guid(9ed89df5771e6e74f8e37a72f06e9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cab24ca134ad98781deab5e28d8f60a') in 0.016023 seconds
+  Import took 0.021207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Gloss.png
+  artifactKey: Guid(757ae1467e03107429e5fbb92c18d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Gloss.png using Guid(757ae1467e03107429e5fbb92c18d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50b3c5550e2abcb257c41eaefac296e') in 0.015206 seconds
+  Import took 0.020195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Specular.png
+  artifactKey: Guid(d3c77ac6a18cd0b47b95b926974abb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Specular.png using Guid(d3c77ac6a18cd0b47b95b926974abb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87af696cd448869cd7d0b4f43855b229') in 0.016183 seconds
+  Import took 0.021611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Normal.png
+  artifactKey: Guid(df9c37dbb4c51c545bb0ab84f1a7a2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Normal.png using Guid(df9c37dbb4c51c545bb0ab84f1a7a2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfb633783882620ede85f6f0a417702') in 0.016141 seconds
+  Import took 0.021600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Specular.png
+  artifactKey: Guid(581f4fa33bd19f646bfa943d926e6db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Specular.png using Guid(581f4fa33bd19f646bfa943d926e6db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb3642a4898347fb1e967f347c2d0af') in 0.014487 seconds
+  Import took 0.019393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Specular.png
+  artifactKey: Guid(8246491e7f874cb439d04a2d40a4a58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Specular.png using Guid(8246491e7f874cb439d04a2d40a4a58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b8fb5624f642958d8b9ee7a6794781') in 0.012203 seconds
+  Import took 0.017062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Opacity.png
+  artifactKey: Guid(befca28ca2b1359458c3fd32ebd4f051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Opacity.png using Guid(befca28ca2b1359458c3fd32ebd4f051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb05cdd163cd4de837f2836d6300529f') in 0.017475 seconds
+  Import took 0.022699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Normal.png
+  artifactKey: Guid(27b92353a276d474a8cec70b1f627582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Normal.png using Guid(27b92353a276d474a8cec70b1f627582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed308ae33cf3350d7a0778ed18fe3a04') in 0.015689 seconds
+  Import took 0.020498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Normal.png
+  artifactKey: Guid(b3be4c0a75186bf4582f7fea503796d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Normal.png using Guid(b3be4c0a75186bf4582f7fea503796d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75865b0698cf573394159283508ff7e9') in 0.017002 seconds
+  Import took 0.022414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Resources/Man Avatar.fbm
+  artifactKey: Guid(3f460a9f5ff99c74d8b19e26f1b48fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm using Guid(3f460a9f5ff99c74d8b19e26f1b48fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f083d1f998fb1ba92567e3fc84dc67c2') in 0.007833 seconds
+  Import took 0.013262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Diffuse.png
+  artifactKey: Guid(bca7ae03a7862d043aed85b3156069af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Diffuse.png using Guid(bca7ae03a7862d043aed85b3156069af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5636b7a97a49222b60320268eab2d679') in 0.014562 seconds
+  Import took 0.020137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.602241 seconds.
+  path: Assets/Resources/Woman.prefab
+  artifactKey: Guid(b83fbd81e4f81844587bbf85e0f8f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Woman.prefab using Guid(b83fbd81e4f81844587bbf85e0f8f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3c72fd58cdf30f41487196ee6a09cd') in 0.254757 seconds
+  Import took 0.262069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.964818 seconds.
   path: Assets/Resources/AHMED_FIX.fbx
-  artifactKey: Guid(a5cf0446f944a5743a45f4c31aba960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/AHMED_FIX.fbx using Guid(a5cf0446f944a5743a45f4c31aba960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d008060358d87664287f4b5455f1258') in 0.464567 seconds
-  Import took 0.478285 seconds .
+  artifactKey: Guid(244676d3988350b49b6de9ec1432f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/AHMED_FIX.fbx using Guid(244676d3988350b49b6de9ec1432f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bbddbcd10305ab92173dcc0958a13a') in 0.317397 seconds
+  Import took 0.336824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Resources/LISA.fbx
+  artifactKey: Guid(1c3eebe37c55bc94a8ed713e4d8696bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LISA.fbx using Guid(1c3eebe37c55bc94a8ed713e4d8696bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914cb6a51331e8ae3b31ec92a2ed8c26') in 0.258522 seconds
+  Import took 0.278105 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.770 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2572 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.9 MB.
+System memory in use after: 134.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3123.
+Total: 4.580300 ms (FindLiveObjects: 0.480000 ms CreateObjectMapping: 0.131400 ms MarkObjects: 3.871100 ms  DeleteObjects: 0.095600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

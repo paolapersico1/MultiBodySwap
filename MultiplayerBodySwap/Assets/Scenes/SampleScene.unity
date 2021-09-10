@@ -364,13 +364,13 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1833331164}
         m_TargetAssemblyTypeName: PlaneHeight, Assembly-CSharp
-        m_MethodName: CalibrateHeight
+        m_MethodName: heightCalibration
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1.53
+          m_FloatArgument: 1.5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -677,13 +677,13 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1833331164}
         m_TargetAssemblyTypeName: PlaneHeight, Assembly-CSharp
-        m_MethodName: CalibrateHeight
+        m_MethodName: heightCalibration
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1.73
+          m_FloatArgument: 1.7
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -996,7 +996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -2349,71 +2349,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1811100548
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7586667281983611013, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: turnSmoothness
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611015, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611021, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: m_Name
-      value: Woman
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586667281983611022, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
-      propertyPath: sceneViewId
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b83fbd81e4f81844587bbf85e0f8f5cd, type: 3}
 --- !u!1 &1833331159
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,8 +2464,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97613580872c7094ead675f090bc37d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHeight: 0
-  avatarHeight: 1.53
+  player1Height: 0
+  player2Height: 0
+  avatar1Height: 1.7
+  avatar2Height: 1.7
+  adaptToMaxOffset: 0
 --- !u!1 &1891762356
 GameObject:
   m_ObjectHideFlags: 0
