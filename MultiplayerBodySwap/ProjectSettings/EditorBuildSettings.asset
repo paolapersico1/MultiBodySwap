@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes: []
+  m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: f9f4938250d4f9e48ad7a22b2839bd34, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8901ebf14d8c9cd4bb5ec8979b0d9f79, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 82932c8d11cdb6447845ee6d7b181022, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: bf61ad8d92eba0f46aab6deb36bb18b3, type: 2}
