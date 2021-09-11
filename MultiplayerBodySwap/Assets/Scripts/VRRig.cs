@@ -32,7 +32,11 @@ public class VRRig : MonoBehaviour
     private Transform vrRightHand;
 
     public Transform headConstraint;
+    public Transform leftHandConstraint;
+    public Transform rightHandConstraint;
     public Vector3 headBodyOffset;
+    public bool bodyRotation;
+    public int rotationDegrees = 90;
 
     private PhotonView photonView;
 
@@ -56,8 +60,9 @@ public class VRRig : MonoBehaviour
         {
             transform.position = headConstraint.position + headBodyOffset;
             //transform.forward = Vector3.ProjectOnPlane(head.rigTarget.transform.up, Vector3.up).normalized;
-            if (Quaternion.Angle(Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0),
-                Quaternion.Euler(0, headConstraint.rotation.eulerAngles.y, 0)) > 90)
+            if (bodyRotation && RotationGreaterThan(transform, headConstraint, rotationDegrees) &&
+                RotationGreaterThan(transform, leftHandConstraint, rotationDegrees) && 
+                RotationGreaterThan(transform, rightHandConstraint, rotationDegrees))
             {
                 transform.forward = Vector3.Lerp(transform.forward, Vector3.ProjectOnPlane(headConstraint.forward, Vector3.up).normalized,
                                             Time.deltaTime * turnSmoothness);
@@ -67,5 +72,11 @@ public class VRRig : MonoBehaviour
             leftHand.Map(vrLeftHand);
             rightHand.Map(vrRightHand);
         }
+    }
+
+    private bool RotationGreaterThan(Transform firstTransform, Transform secondTransform, int degrees)
+    {
+        return Quaternion.Angle(Quaternion.Euler(0, firstTransform.rotation.eulerAngles.y, 0),
+                Quaternion.Euler(0, secondTransform.rotation.eulerAngles.y, 0)) > degrees;
     }
 }
