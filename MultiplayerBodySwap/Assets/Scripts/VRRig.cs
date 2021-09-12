@@ -32,7 +32,7 @@ public class VRRig : MonoBehaviour
     private Transform vrRightHand;
 
     public Vector3 headBodyOffset;
-    public bool bodyRotation;
+    public bool bodyRotation = true;
     public int rotThreshold = 10;
 
     private PhotonView photonView;
