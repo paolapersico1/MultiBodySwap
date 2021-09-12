@@ -31,12 +31,9 @@ public class VRRig : MonoBehaviour
     private Transform vrLeftHand;
     private Transform vrRightHand;
 
-    public Transform headConstraint;
-    public Transform leftHandConstraint;
-    public Transform rightHandConstraint;
     public Vector3 headBodyOffset;
     public bool bodyRotation;
-    public int rotationDegrees = 90;
+    public int rotThreshold = 10;
 
     private PhotonView photonView;
 
@@ -50,7 +47,7 @@ public class VRRig : MonoBehaviour
         vrLeftHand = rig.transform.Find("Camera Offset/LeftHand Controller");
         vrRightHand = rig.transform.Find("Camera Offset/RightHand Controller");
 
-        headBodyOffset = transform.position - headConstraint.position;
+        headBodyOffset = transform.position - head.rigTarget.position;
     }
 
     // Update is called once per frame
@@ -58,13 +55,16 @@ public class VRRig : MonoBehaviour
     {
         if (photonView.IsMine)
         {
-            transform.position = headConstraint.position + headBodyOffset;
+            transform.position = head.rigTarget.position + headBodyOffset;
             //transform.forward = Vector3.ProjectOnPlane(head.rigTarget.transform.up, Vector3.up).normalized;
-            if (bodyRotation && RotationGreaterThan(transform, headConstraint, rotationDegrees) &&
-                RotationGreaterThan(transform, leftHandConstraint, rotationDegrees) && 
-                RotationGreaterThan(transform, rightHandConstraint, rotationDegrees))
+            float headTorsoRotation = RotationDifference(transform, head.rigTarget);
+            float leftHandTorsoRotation = RotationDifference(transform, leftHand.rigTarget);
+            float rightHandTorsoRotation = RotationDifference(transform, rightHand.rigTarget);
+            if (bodyRotation && 
+                Mathf.Abs(headTorsoRotation - leftHandTorsoRotation) < rotThreshold &&
+                Mathf.Abs(headTorsoRotation - rightHandTorsoRotation) < rotThreshold)
             {
-                transform.forward = Vector3.Lerp(transform.forward, Vector3.ProjectOnPlane(headConstraint.forward, Vector3.up).normalized,
+                transform.forward = Vector3.Lerp(transform.forward, Vector3.ProjectOnPlane(head.rigTarget.forward, Vector3.up).normalized,
                                             Time.deltaTime * turnSmoothness);
             }
 
@@ -74,9 +74,9 @@ public class VRRig : MonoBehaviour
         }
     }
 
-    private bool RotationGreaterThan(Transform firstTransform, Transform secondTransform, int degrees)
+    private float RotationDifference(Transform firstTransform, Transform secondTransform)
     {
         return Quaternion.Angle(Quaternion.Euler(0, firstTransform.rotation.eulerAngles.y, 0),
-                Quaternion.Euler(0, secondTransform.rotation.eulerAngles.y, 0)) > degrees;
+                Quaternion.Euler(0, secondTransform.rotation.eulerAngles.y, 0));
     }
 }
