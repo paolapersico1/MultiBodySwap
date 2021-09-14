@@ -354,3 +354,796 @@ System memory in use after: 134.6 MB.
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3149.
 Total: 11.839000 ms (FindLiveObjects: 1.170600 ms CreateObjectMapping: 0.389500 ms MarkObjects: 10.055100 ms  DeleteObjects: 0.220600 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1129.561715 seconds.
+  path: Assets/Resources/LISA.fbx
+  artifactKey: Guid(2117da203b02bde4bb50f83d60edf15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LISA.fbx using Guid(2117da203b02bde4bb50f83d60edf15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af166c473ef0d224e40e97159e5b2689') in 0.286207 seconds
+  Import took 0.297800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.881725 seconds.
+  path: Assets/Resources/LISA.fbx
+  artifactKey: Guid(2117da203b02bde4bb50f83d60edf15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/LISA.fbx using Guid(2117da203b02bde4bb50f83d60edf15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d6d7ad4cc71d446968c964791e84e4') in 0.310869 seconds
+  Import took 0.323061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.825404 seconds.
+  path: Assets/Resources/Avatar.fbm
+  artifactKey: Guid(958197c7d4bd0444bb6dad9377437b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Avatar.fbm using Guid(958197c7d4bd0444bb6dad9377437b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612a335a4d0444f92d954789e12d1bff') in 0.009162 seconds
+  Import took 0.015285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050791 seconds.
+  path: Assets/Resources/Avatar.fbm
+  artifactKey: Guid(958197c7d4bd0444bb6dad9377437b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Avatar.fbm using Guid(958197c7d4bd0444bb6dad9377437b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612a335a4d0444f92d954789e12d1bff') in 0.004515 seconds
+  Import took 0.011320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.723756 seconds.
+  path: Assets/Resources/remy.fbm
+  artifactKey: Guid(97cdfabe1e9a01a4bacc5a914f1431ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm using Guid(97cdfabe1e9a01a4bacc5a914f1431ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9712ae98934252292db8a5e82c1d06') in 0.018978 seconds
+  Import took 0.025393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041247 seconds.
+  path: Assets/Resources/remy.fbm
+  artifactKey: Guid(97cdfabe1e9a01a4bacc5a914f1431ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm using Guid(97cdfabe1e9a01a4bacc5a914f1431ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9712ae98934252292db8a5e82c1d06') in 0.003526 seconds
+  Import took 0.009534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.721895 seconds.
+  path: Assets/Resources/Man test Avatar.fbm
+  artifactKey: Guid(5a96c6adae8900240857721c07b02030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm using Guid(5a96c6adae8900240857721c07b02030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea296f81db9ce998d326b2219ab56142') in 0.009863 seconds
+  Import took 0.016100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050411 seconds.
+  path: Assets/Resources/Man test Avatar.fbm
+  artifactKey: Guid(5a96c6adae8900240857721c07b02030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm using Guid(5a96c6adae8900240857721c07b02030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea296f81db9ce998d326b2219ab56142') in 0.003496 seconds
+  Import took 0.008997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.392193 seconds.
+  path: Assets/Resources/remy.fbm
+  artifactKey: Guid(97cdfabe1e9a01a4bacc5a914f1431ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm using Guid(97cdfabe1e9a01a4bacc5a914f1431ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a9ad84d65897a53dfc590a3f9ae856') in 0.004498 seconds
+  Import took 0.013676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083581 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Body_Diffuse.png
+  artifactKey: Guid(eec821dcd0a6cab49a09d2cfc310ae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Body_Diffuse.png using Guid(eec821dcd0a6cab49a09d2cfc310ae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ee02e0753f2dcb7a77ab51da5ef705') in 0.051243 seconds
+  Import took 0.056857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Top_Diffuse.png
+  artifactKey: Guid(f585a63cdd1f7ce408529ec54bec765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Top_Diffuse.png using Guid(f585a63cdd1f7ce408529ec54bec765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7731b49f7b011b4b51b569a477a3b337') in 0.014622 seconds
+  Import took 0.019994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Shoes_Gloss.png
+  artifactKey: Guid(5e443395641a6db46bd7639fb7d0382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Shoes_Gloss.png using Guid(5e443395641a6db46bd7639fb7d0382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c656114dfe5420fb3eb0e852d7301a81') in 0.019233 seconds
+  Import took 0.024764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Shoes_Normal.png
+  artifactKey: Guid(9d0ae978b9c1d6d479da8811a0105a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Shoes_Normal.png using Guid(9d0ae978b9c1d6d479da8811a0105a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242f66a28caae187bb7c1481aa21b9dd') in 0.025081 seconds
+  Import took 0.030407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Body_Gloss.png
+  artifactKey: Guid(3033592a9bf74e045892dac745dbe6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Body_Gloss.png using Guid(3033592a9bf74e045892dac745dbe6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940b48e15f649e53fc82e66115976b3a') in 0.016717 seconds
+  Import took 0.022460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Body_Normal.png
+  artifactKey: Guid(dc405422ac9e7b841ab0ad0014097d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Body_Normal.png using Guid(dc405422ac9e7b841ab0ad0014097d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b1ba20d3b8e478343bbf4078802f94') in 0.023314 seconds
+  Import took 0.028995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Shoes_Diffuse.png
+  artifactKey: Guid(d37953258e109d14493c81c5c695053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Shoes_Diffuse.png using Guid(d37953258e109d14493c81c5c695053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9fb7e9bf958654f11e4b8c9b972e23') in 0.016855 seconds
+  Import took 0.022305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Shoes_Specular.png
+  artifactKey: Guid(3216bddbdae4117499db47f91561c58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Shoes_Specular.png using Guid(3216bddbdae4117499db47f91561c58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c998929ff4f868dfb8642e2661b359d9') in 0.015088 seconds
+  Import took 0.020566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Top_Gloss.png
+  artifactKey: Guid(1fed503b03745d44cba39e13d415d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Top_Gloss.png using Guid(1fed503b03745d44cba39e13d415d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ffbc39a9c3f95dec1c3e273add6254') in 0.016663 seconds
+  Import took 0.021991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Bottom_Opacity.png
+  artifactKey: Guid(b319d44c0107af149a1478aa487cd8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Bottom_Opacity.png using Guid(b319d44c0107af149a1478aa487cd8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a702142353af4256e33d5d41002f32') in 0.014634 seconds
+  Import took 0.020694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Shoes_Opacity.png
+  artifactKey: Guid(f88e7c11e7d026a47809b5f7ccd294ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Shoes_Opacity.png using Guid(f88e7c11e7d026a47809b5f7ccd294ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683a963ed4ff39f3be6c0ee87c4d68c9') in 0.015814 seconds
+  Import took 0.022718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Hair_Diffuse.png
+  artifactKey: Guid(475ea93fbaf0c08428a037c2872f96e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Hair_Diffuse.png using Guid(475ea93fbaf0c08428a037c2872f96e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05f99edc8509b52744d262ae3645591') in 0.016942 seconds
+  Import took 0.022363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Bottom_Normal.png
+  artifactKey: Guid(70638116b9ecb1041a3a2c117e1c0b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Bottom_Normal.png using Guid(70638116b9ecb1041a3a2c117e1c0b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f22db51ac7cb092bdd98d12c4fd79fb') in 0.018493 seconds
+  Import took 0.024148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Hair_Normal.png
+  artifactKey: Guid(b6e6ea85e967ae244a57b9dfcf15f593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Hair_Normal.png using Guid(b6e6ea85e967ae244a57b9dfcf15f593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a37a8b13c6897f3c70174a48ff1cf4') in 0.017896 seconds
+  Import took 0.023378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Hair_Gloss.png
+  artifactKey: Guid(cabe1d7cf85ff8d4684ccfa8a21bf308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Hair_Gloss.png using Guid(cabe1d7cf85ff8d4684ccfa8a21bf308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a530723e8587e7331076efdebd628eee') in 0.015655 seconds
+  Import took 0.021078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Bottom_Gloss.png
+  artifactKey: Guid(418a6c9aa7e3e0549acc2edd98b74e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Bottom_Gloss.png using Guid(418a6c9aa7e3e0549acc2edd98b74e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32558c4ba26cacf2f9d8d3eeff7957b1') in 0.015339 seconds
+  Import took 0.021383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Hair_Opacity.png
+  artifactKey: Guid(ad7925b7e363e7947a5a086c0ff855a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Hair_Opacity.png using Guid(ad7925b7e363e7947a5a086c0ff855a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e3655ecba3c3de955ee40f2141794e') in 0.015608 seconds
+  Import took 0.021022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Hair_Specular.png
+  artifactKey: Guid(24ab49556dbd64b46a462b5f0de52802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Hair_Specular.png using Guid(24ab49556dbd64b46a462b5f0de52802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08de41969aec83742f690eb4fedfaab') in 0.015452 seconds
+  Import took 0.020878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Top_Opacity.png
+  artifactKey: Guid(b6e64b2b31294214f90b3703c59ebeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Top_Opacity.png using Guid(b6e64b2b31294214f90b3703c59ebeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9645b37d099c0d4a7278faed41e78c60') in 0.014570 seconds
+  Import took 0.020259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Body_Opacity.png
+  artifactKey: Guid(ede1dd1dcec2a9743b12dceb96c0fdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Body_Opacity.png using Guid(ede1dd1dcec2a9743b12dceb96c0fdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f22ea72be764930e0a5026fad32c86') in 0.015697 seconds
+  Import took 0.021669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Top_Specular.png
+  artifactKey: Guid(4e7ee9cbd148e1a4d8ef42e36e622ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Top_Specular.png using Guid(4e7ee9cbd148e1a4d8ef42e36e622ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b53fd915a1503cbbfa958564d395da') in 0.015517 seconds
+  Import took 0.020962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Top_Normal.png
+  artifactKey: Guid(af4a20e24cd6e3f42b00865bae1577f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Top_Normal.png using Guid(af4a20e24cd6e3f42b00865bae1577f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15a7217a144df4e99313215bf588217') in 0.017610 seconds
+  Import took 0.022833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Body_Specular.png
+  artifactKey: Guid(771f14a75a6a3e249a7cbfd02b1f8847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Body_Specular.png using Guid(771f14a75a6a3e249a7cbfd02b1f8847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663f2baa8badafaba38b4b476986c098') in 0.016904 seconds
+  Import took 0.022280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Bottom_Diffuse.png
+  artifactKey: Guid(5ffb4791965efad409640899173bf4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Bottom_Diffuse.png using Guid(5ffb4791965efad409640899173bf4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757cfa1b58c48368cd38732a00fc7480') in 0.017541 seconds
+  Import took 0.023191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Resources/remy.fbm/Remy_Bottom_Specular.png
+  artifactKey: Guid(a00b795f566b25b4c9f0cf9d2bb6cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/remy.fbm/Remy_Bottom_Specular.png using Guid(a00b795f566b25b4c9f0cf9d2bb6cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32cbaa4da33fde6783040577b712fd7') in 0.014012 seconds
+  Import took 0.019683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.884371 seconds.
+  path: Assets/Resources/Man Avatar.fbm
+  artifactKey: Guid(3f460a9f5ff99c74d8b19e26f1b48fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm using Guid(3f460a9f5ff99c74d8b19e26f1b48fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683a209edde70ad91410b5005479c4df') in 0.010778 seconds
+  Import took 0.016606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056829 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Diffuse.png
+  artifactKey: Guid(4a330bee24a3a43499cfafb5b3cf18cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Diffuse.png using Guid(4a330bee24a3a43499cfafb5b3cf18cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ea083357c630b4544dea12abd135fa') in 0.016495 seconds
+  Import took 0.022334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Opacity.png
+  artifactKey: Guid(2f7daf801163b674380c39b26c289a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Opacity.png using Guid(2f7daf801163b674380c39b26c289a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1731956fdc4b13c861e3c419266b2d9') in 0.015171 seconds
+  Import took 0.022405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Normal.png
+  artifactKey: Guid(783ddfdb69e283a43a967adecab5bb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Normal.png using Guid(783ddfdb69e283a43a967adecab5bb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2893b7cb2348c95d13eb83d8a2241472') in 0.015874 seconds
+  Import took 0.021114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Gloss.png
+  artifactKey: Guid(18ecd5183dc34c0449f26e42ed447e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Gloss.png using Guid(18ecd5183dc34c0449f26e42ed447e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc8175ca55c9965b0539e22afc7766c') in 0.015940 seconds
+  Import took 0.021462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Gloss.png
+  artifactKey: Guid(895c80eba229bf843ad7662f17d08781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Gloss.png using Guid(895c80eba229bf843ad7662f17d08781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87de2b01fc7cdb01d070319d130d32b') in 0.015398 seconds
+  Import took 0.021031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Normal.png
+  artifactKey: Guid(e907e162273d1d54c92a8f57a8599965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Normal.png using Guid(e907e162273d1d54c92a8f57a8599965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3c63751f6f71ea8b3c9871cabb53b4') in 0.015891 seconds
+  Import took 0.022653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Opacity.png
+  artifactKey: Guid(14ac2e5f1e123b843a77836e8940b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Opacity.png using Guid(14ac2e5f1e123b843a77836e8940b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ee65389ab36149034ce03d14f07abc') in 0.016559 seconds
+  Import took 0.022168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Opacity.png
+  artifactKey: Guid(61687ed327959964c830442979b018c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Opacity.png using Guid(61687ed327959964c830442979b018c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e9321e857872794be42c38a188519f') in 0.010882 seconds
+  Import took 0.016638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Diffuse.png
+  artifactKey: Guid(ae557263152853941bd9904532e5976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Diffuse.png using Guid(ae557263152853941bd9904532e5976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9211f196f133f5da878f25da59b2963e') in 0.013455 seconds
+  Import took 0.018857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Specular.png
+  artifactKey: Guid(068b9fa80d8bec8429004d52c4a32d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Specular.png using Guid(068b9fa80d8bec8429004d52c4a32d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1123d7db44d60f4af1eecf237b669906') in 0.018838 seconds
+  Import took 0.025312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Opacity.png
+  artifactKey: Guid(ecd17fc9d6a2be9499e4f94d8fb3fab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Opacity.png using Guid(ecd17fc9d6a2be9499e4f94d8fb3fab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f26d4ed2f735b90c646695e52db3f5') in 0.011171 seconds
+  Import took 0.016608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Gloss.png
+  artifactKey: Guid(7f7b3b42bb18d9a45b96d78f6cff6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Gloss.png using Guid(7f7b3b42bb18d9a45b96d78f6cff6622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e090dccf603ed1f98812d0869d9964d') in 0.013886 seconds
+  Import took 0.019336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Specular.png
+  artifactKey: Guid(9727b27815a06cf43ac44d99b3fe3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Specular.png using Guid(9727b27815a06cf43ac44d99b3fe3b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa559b2ba78833b92434afbc8307d5e') in 0.010664 seconds
+  Import took 0.016727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Diffuse.png
+  artifactKey: Guid(36f2320611e0024469c7321a9567cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Diffuse.png using Guid(36f2320611e0024469c7321a9567cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2458f61322b4be833a4a1152badc5bfa') in 0.014250 seconds
+  Import took 0.020144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Diffuse.png
+  artifactKey: Guid(0cba026aad7d0c849bc17b3cc9beddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Diffuse.png using Guid(0cba026aad7d0c849bc17b3cc9beddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4753a05432082e39b659e06d32c4fc66') in 0.017132 seconds
+  Import took 0.023390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Gloss.png
+  artifactKey: Guid(9ed89df5771e6e74f8e37a72f06e9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Gloss.png using Guid(9ed89df5771e6e74f8e37a72f06e9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b75a90bc9265abcf568615f5836ae3') in 0.014264 seconds
+  Import took 0.019699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Gloss.png
+  artifactKey: Guid(757ae1467e03107429e5fbb92c18d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Gloss.png using Guid(757ae1467e03107429e5fbb92c18d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9659bb0f980d3ea5b26a96def2547ffc') in 0.012937 seconds
+  Import took 0.018298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Specular.png
+  artifactKey: Guid(d3c77ac6a18cd0b47b95b926974abb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Specular.png using Guid(d3c77ac6a18cd0b47b95b926974abb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbcbe36132c900f74742931a4b4139f') in 0.013934 seconds
+  Import took 0.019788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Hair_Normal.png
+  artifactKey: Guid(df9c37dbb4c51c545bb0ab84f1a7a2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Hair_Normal.png using Guid(df9c37dbb4c51c545bb0ab84f1a7a2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197af535feedc23d33f34006ff2b9398') in 0.013584 seconds
+  Import took 0.018952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Specular.png
+  artifactKey: Guid(581f4fa33bd19f646bfa943d926e6db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Specular.png using Guid(581f4fa33bd19f646bfa943d926e6db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f010c1c433f70f14b9f68db5d667d2d3') in 0.013537 seconds
+  Import took 0.019405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Top_Specular.png
+  artifactKey: Guid(8246491e7f874cb439d04a2d40a4a58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Top_Specular.png using Guid(8246491e7f874cb439d04a2d40a4a58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd891b995f5820afbd4cf9520110eb7c') in 0.010173 seconds
+  Import took 0.015713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Opacity.png
+  artifactKey: Guid(befca28ca2b1359458c3fd32ebd4f051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Opacity.png using Guid(befca28ca2b1359458c3fd32ebd4f051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829b16dff4b1226b073253bbf8f0a7a4') in 0.012853 seconds
+  Import took 0.018576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Body_Normal.png
+  artifactKey: Guid(27b92353a276d474a8cec70b1f627582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Body_Normal.png using Guid(27b92353a276d474a8cec70b1f627582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7356ea9a69bd618ecfc01bfd82b7f0db') in 0.016130 seconds
+  Import took 0.021401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Bottom_Normal.png
+  artifactKey: Guid(b3be4c0a75186bf4582f7fea503796d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Bottom_Normal.png using Guid(b3be4c0a75186bf4582f7fea503796d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a967cb3c8ef904174790ccd2612f3dc3') in 0.017096 seconds
+  Import took 0.023016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Resources/Man Avatar.fbm/Remy_Shoes_Diffuse.png
+  artifactKey: Guid(bca7ae03a7862d043aed85b3156069af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man Avatar.fbm/Remy_Shoes_Diffuse.png using Guid(bca7ae03a7862d043aed85b3156069af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd159428abd9013d64a7eeb2d0207c781') in 0.015345 seconds
+  Import took 0.021198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.029415 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Body_Diffuse.png
+  artifactKey: Guid(3cf0dd20e8bc95346a3bc4ad61a7bbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Body_Diffuse.png using Guid(3cf0dd20e8bc95346a3bc4ad61a7bbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220cd84415369c30dbbc0dd752f77095') in 0.016072 seconds
+  Import took 0.022008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Hair_Specular.png
+  artifactKey: Guid(ecbd8b0056493ba419eb9bb1e2a07d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Hair_Specular.png using Guid(ecbd8b0056493ba419eb9bb1e2a07d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16de4277792589357b908baf7d4a573d') in 0.018642 seconds
+  Import took 0.024040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Gloss.png
+  artifactKey: Guid(eb71dca3a3e07044a848dbf5f5048207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Gloss.png using Guid(eb71dca3a3e07044a848dbf5f5048207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e745aa195679b364f8967d3c1573783') in 0.014937 seconds
+  Import took 0.024160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Diffuse.png
+  artifactKey: Guid(6ed1d894f20ea0e489a1a8ec7d542bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Diffuse.png using Guid(6ed1d894f20ea0e489a1a8ec7d542bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665de9964383ec67edba6f6c4b4140f2') in 0.015999 seconds
+  Import took 0.021502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Top_Normal.png
+  artifactKey: Guid(9107e3fac820c134dad2069df70b1b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Top_Normal.png using Guid(9107e3fac820c134dad2069df70b1b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e46e8c1a71e8d2257ccd4c4e6a21f0') in 0.014540 seconds
+  Import took 0.020242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Body_Normal.png
+  artifactKey: Guid(0ac584e9cb86ce747b84c13d27c31eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Body_Normal.png using Guid(0ac584e9cb86ce747b84c13d27c31eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dff4a34fed4e6d190726b9d700d90c') in 0.022371 seconds
+  Import took 0.028855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Normal.png
+  artifactKey: Guid(d027a84ffa8aba746bb6520d47fc0b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Normal.png using Guid(d027a84ffa8aba746bb6520d47fc0b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571632cb9e149e6af1d91f4d4b36209e') in 0.017877 seconds
+  Import took 0.023829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Body_Opacity.png
+  artifactKey: Guid(0a99ac7038835e34597c9f0089af327c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Body_Opacity.png using Guid(0a99ac7038835e34597c9f0089af327c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0ce2a882a0598060b741722e7c1804') in 0.020241 seconds
+  Import took 0.025955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Hair_Normal.png
+  artifactKey: Guid(42c5765cc34133d49a77b30c3a4bdcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Hair_Normal.png using Guid(42c5765cc34133d49a77b30c3a4bdcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbc6f0e499c7cbc16f32c684106340c') in 0.014119 seconds
+  Import took 0.019424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Top_Specular.png
+  artifactKey: Guid(91d39c1852c28b64a83a31fb48d7c494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Top_Specular.png using Guid(91d39c1852c28b64a83a31fb48d7c494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1342ca9d5093875c20b23a3b9e18365b') in 0.010167 seconds
+  Import took 0.016314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Body_Specular.png
+  artifactKey: Guid(d38bebf130105e4439f9d21588baaf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Body_Specular.png using Guid(d38bebf130105e4439f9d21588baaf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69964748feea75f5e7151637f68a553') in 0.019771 seconds
+  Import took 0.025518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Body_Gloss.png
+  artifactKey: Guid(7fc3fdd83b0f48c4994cab383833d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Body_Gloss.png using Guid(7fc3fdd83b0f48c4994cab383833d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df92ada4e15e0e8ce780f5008aaff55') in 0.017601 seconds
+  Import took 0.023281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Normal.png
+  artifactKey: Guid(70eda927aeda1324ba919f87acc16ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Normal.png using Guid(70eda927aeda1324ba919f87acc16ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca18efbd68acb799655863b10cccc8e') in 0.017265 seconds
+  Import took 0.023205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Opacity.png
+  artifactKey: Guid(c7d4b41f70650be478192cb78278a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Opacity.png using Guid(c7d4b41f70650be478192cb78278a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9693569726406e877b9335d10e8e8690') in 0.010240 seconds
+  Import took 0.015785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Top_Diffuse.png
+  artifactKey: Guid(fca37de9d5c5a97468b242e2fb33818e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Top_Diffuse.png using Guid(fca37de9d5c5a97468b242e2fb33818e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a472b660ce483d80627328a20654980') in 0.013950 seconds
+  Import took 0.020114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Diffuse.png
+  artifactKey: Guid(fcdb527cdeb9d2e48883b93d3a0dad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Diffuse.png using Guid(fcdb527cdeb9d2e48883b93d3a0dad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07f4b8a4dcd6757f72804efd239eaaa') in 0.016616 seconds
+  Import took 0.022283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Top_Gloss.png
+  artifactKey: Guid(91891434d66b5a4408cbb7254b699bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Top_Gloss.png using Guid(91891434d66b5a4408cbb7254b699bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed1f036019e25b5aced2a4ff173997c') in 0.013970 seconds
+  Import took 0.019409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Hair_Diffuse.png
+  artifactKey: Guid(ed573631f807c5742b9ac7bdea9f6f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Hair_Diffuse.png using Guid(ed573631f807c5742b9ac7bdea9f6f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b6fefe0777515fd3b0f796028710bd') in 0.013642 seconds
+  Import took 0.019529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Hair_Opacity.png
+  artifactKey: Guid(d0cf6962979b6ad47842e0ed259d0902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Hair_Opacity.png using Guid(d0cf6962979b6ad47842e0ed259d0902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd178314a73a9f361f64fba89d8587d80') in 0.017690 seconds
+  Import took 0.023195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Specular.png
+  artifactKey: Guid(e93afa3d6e4193441a7a30419962ceae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Specular.png using Guid(e93afa3d6e4193441a7a30419962ceae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c803b01125e38c5dad4841ee13acfaf') in 0.014268 seconds
+  Import took 0.019703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Specular.png
+  artifactKey: Guid(c54d1ec94290eaa4daa1f5700cb86482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Specular.png using Guid(c54d1ec94290eaa4daa1f5700cb86482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bf0ea36c19d81d77f57f3c0ac6d49e') in 0.010680 seconds
+  Import took 0.016470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Gloss.png
+  artifactKey: Guid(aeed77f20251a6c48987c567036628a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Shoes_Gloss.png using Guid(aeed77f20251a6c48987c567036628a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe95133d3bb6ede4a05be1fd86a917f3') in 0.014724 seconds
+  Import took 0.020233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Top_Opacity.png
+  artifactKey: Guid(198be584160463449bc27ec11b76a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Top_Opacity.png using Guid(198be584160463449bc27ec11b76a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aa1b0d18cb69b6cd00625c24487b4f') in 0.010236 seconds
+  Import took 0.015703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Opacity.png
+  artifactKey: Guid(389050a90841ad241884e9bfdc2756aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Bottom_Opacity.png using Guid(389050a90841ad241884e9bfdc2756aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaf92ee9cfd5f548415eae7b6c0ad5f') in 0.010314 seconds
+  Import took 0.015956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Resources/Man test Avatar.fbm/Remy_Hair_Gloss.png
+  artifactKey: Guid(119ac159cd04a3a4fa0223071fd82f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man test Avatar.fbm/Remy_Hair_Gloss.png using Guid(119ac159cd04a3a4fa0223071fd82f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00eae74c6af5e174e64cb5587602796') in 0.013193 seconds
+  Import took 0.019207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.171508 seconds.
+  path: Assets/Resources/Avatar.fbm/Ch37_1001_Diffuse.png
+  artifactKey: Guid(4a078f461c95ffe42aa266a1425adcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Avatar.fbm/Ch37_1001_Diffuse.png using Guid(4a078f461c95ffe42aa266a1425adcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8e3638a55aa235ffdf793585ad368c') in 0.025331 seconds
+  Import took 0.032247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Resources/Avatar.fbm/Ch37_1001_Glossiness.png
+  artifactKey: Guid(0ff1f1ccc8774f748a04c9f783e9c2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Avatar.fbm/Ch37_1001_Glossiness.png using Guid(0ff1f1ccc8774f748a04c9f783e9c2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8214f87cdb9962ed27808c5152a07185') in 0.029063 seconds
+  Import took 0.034524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Resources/Avatar.fbm/Ch37_1001_Specular.png
+  artifactKey: Guid(200c48d7e5a2d1d4e9e435eb92e0ecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Avatar.fbm/Ch37_1001_Specular.png using Guid(200c48d7e5a2d1d4e9e435eb92e0ecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f0915aa117c9258d4df0c4c7f8920') in 0.028458 seconds
+  Import took 0.034170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Resources/Avatar.fbm/Ch37_1001_Normal.png
+  artifactKey: Guid(200c65054591c374aa51b2fd2a2f8486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Avatar.fbm/Ch37_1001_Normal.png using Guid(200c65054591c374aa51b2fd2a2f8486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6878e557c5b08c7fcddd92a7efc77fa4') in 0.022559 seconds
+  Import took 0.028013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/Resources/Avatar.fbm/Ch37_1002_Normal.png
+  artifactKey: Guid(a9651395c8d84554f999d9947bf45791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Avatar.fbm/Ch37_1002_Normal.png using Guid(a9651395c8d84554f999d9947bf45791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3ca066af65e15e325a15048b4936e0') in 0.024920 seconds
+  Import took 0.031157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Resources/Avatar.fbm/Ch37_1002_Diffuse.png
+  artifactKey: Guid(0b9d9e052babb454a8dfb881bf6f9bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Avatar.fbm/Ch37_1002_Diffuse.png using Guid(0b9d9e052babb454a8dfb881bf6f9bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fda153d788b6e05352a61a7c95ea9a') in 0.029837 seconds
+  Import took 0.035165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014956 seconds.
+  path: Assets/Resources/Avatar.fbm/Ch37_1002_Diffuse.png
+  artifactKey: Guid(0b9d9e052babb454a8dfb881bf6f9bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Avatar.fbm/Ch37_1002_Diffuse.png using Guid(0b9d9e052babb454a8dfb881bf6f9bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fda153d788b6e05352a61a7c95ea9a') in 0.019521 seconds
+  Import took 0.024923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.348943 seconds.
+  path: Assets/Resources/Materials/bracelet.mat
+  artifactKey: Guid(efb4b49245473694d8372a18b66e7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/bracelet.mat using Guid(efb4b49245473694d8372a18b66e7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce7b432f6607ed2a893f958c65fc29c') in 0.033102 seconds
+  Import took 0.038677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Resources/Materials/Remy_Hair_Diffuse.mat
+  artifactKey: Guid(6e36813f74511e540af075e9ab789a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Remy_Hair_Diffuse.mat using Guid(6e36813f74511e540af075e9ab789a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90b009518b9eb17846c38e026479a69') in 0.016935 seconds
+  Import took 0.022617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Resources/Materials/Remy_Bottom_Diffuse.mat
+  artifactKey: Guid(c6dc1154948c1b74c8e1be17f695d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Remy_Bottom_Diffuse.mat using Guid(c6dc1154948c1b74c8e1be17f695d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31a44b29fa4c5129b0b93bff2a34b5d') in 0.013941 seconds
+  Import took 0.019902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Resources/Materials/Remy_Top_Diffuse.mat
+  artifactKey: Guid(0e1a6fea40175854f99a9a792e445280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Remy_Top_Diffuse.mat using Guid(0e1a6fea40175854f99a9a792e445280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a2bc64fef97385fd1dcde167b4a360') in 0.012893 seconds
+  Import took 0.018190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Resources/Materials/bracelet.mat
+  artifactKey: Guid(efb4b49245473694d8372a18b66e7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/bracelet.mat using Guid(efb4b49245473694d8372a18b66e7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce7b432f6607ed2a893f958c65fc29c') in 0.012062 seconds
+  Import took 0.017504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Resources/Materials/Remy_Body_Diffuse.mat
+  artifactKey: Guid(203bef2a890128046a9ec686b3a105c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Remy_Body_Diffuse.mat using Guid(203bef2a890128046a9ec686b3a105c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c35b5d63d50b7fac3ebba1db59b6639') in 0.012271 seconds
+  Import took 0.018008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Resources/Materials/Remy_Shoes_Diffuse.mat
+  artifactKey: Guid(af454e61be34b874a96bf7a384b1a66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Remy_Shoes_Diffuse.mat using Guid(af454e61be34b874a96bf7a384b1a66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55e38ee1fbf9721b950bbab02a1697b') in 0.012375 seconds
+  Import took 0.017735 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
