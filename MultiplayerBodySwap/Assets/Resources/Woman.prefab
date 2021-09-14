@@ -655,12 +655,9 @@ MonoBehaviour:
     rigTarget: {fileID: 2702224829788147938}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 90, y: 0, z: 0}
-  headConstraint: {fileID: 2702224829156607238}
-  leftHandConstraint: {fileID: 2702224828016780076}
-  rightHandConstraint: {fileID: 2702224829788147938}
   headBodyOffset: {x: 0, y: 2, z: 0}
   bodyRotation: 1
-  rotationDegrees: 90
+  rotThreshold: 10
 --- !u!114 &2702224828306619035
 MonoBehaviour:
   m_ObjectHideFlags: 0

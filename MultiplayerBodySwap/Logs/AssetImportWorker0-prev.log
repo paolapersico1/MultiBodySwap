@@ -15,11 +15,13 @@ C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62269
+49384
 Successfully changed project path to: C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap
 C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.37 ms, found 9 plugins.
+Unable to join player connection multicast group.
+
+Refreshing native plugins compatible for Editor in 66.12 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,135 +37,499 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001892 seconds.
+Registered in 0.002044 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.47 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 49.01 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
+- Completed reload, in  1.002 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008473 seconds.
+Registered in 0.008030 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.34 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 48.60 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.633 seconds
+- Completed reload, in  1.555 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2626 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.5 MB.
-System memory in use after: 123.5 MB.
+System memory in use before: 123.6 MB.
+System memory in use after: 123.6 MB.
 
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3073.
-Total: 3.594900 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.078500 ms MarkObjects: 3.073400 ms  DeleteObjects: 0.142300 ms)
+Total: 3.139700 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.624700 ms  DeleteObjects: 0.108000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/VRRig.cs
-  artifactKey: Guid(bff563f525d66f84fa7f4f2499c1a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/VRRig.cs using Guid(bff563f525d66f84fa7f4f2499c1a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85797cd8bbb65cb93f241b4f9e21a2fd') in 0.021728 seconds
-  Import took 0.026042 seconds .
+  path: Assets/Resources/decimatedAhmed1 (4).fbx
+  artifactKey: Guid(d30bb4d9d84bff7488b42737e513d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/decimatedAhmed1 (4).fbx using Guid(d30bb4d9d84bff7488b42737e513d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f73828107ef76f5fd4ad720f0e7138') in 0.269712 seconds
+  Import took 0.275192 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 318.798283 seconds.
-  path: Assets/Resources/Man.prefab
-  artifactKey: Guid(2967614a2da2dc44282080b0f0fc1277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Man.prefab using Guid(2967614a2da2dc44282080b0f0fc1277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c0fb54b523179420f958e295d34ae1') in 0.332182 seconds
-  Import took 0.351080 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012086 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.676 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2572 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.6 MB.
-System memory in use after: 133.8 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3085.
-Total: 5.398500 ms (FindLiveObjects: 0.471400 ms CreateObjectMapping: 0.241700 ms MarkObjects: 4.586200 ms  DeleteObjects: 0.096900 ms)
+  Time since last request: 62.513668 seconds.
+  path: Assets/Resources/decimatedAhmed1 (4).fbx
+  artifactKey: Guid(d30bb4d9d84bff7488b42737e513d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/decimatedAhmed1 (4).fbx using Guid(d30bb4d9d84bff7488b42737e513d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef87d9245408b313f99de2bf56e0a9f') in 0.234687 seconds
+  Import took 0.240013 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.925905 seconds.
-  path: Assets/Resources/Woman.prefab
-  artifactKey: Guid(b83fbd81e4f81844587bbf85e0f8f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Woman.prefab using Guid(b83fbd81e4f81844587bbf85e0f8f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8537309c2d6b3d259e61bbd3227fc0') in 0.192125 seconds
-  Import took 0.201926 seconds .
+  Time since last request: 18.896233 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 1.png
+  artifactKey: Guid(ca65fce71d500bb43b1bbb7ae2169258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 1.png using Guid(ca65fce71d500bb43b1bbb7ae2169258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a5325337858f9b5dc8e879e3dcc7e1') in 0.033217 seconds
+  Import took 0.037990 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 114.755930 seconds.
-  path: Assets/Resources/Woman 1.prefab
-  artifactKey: Guid(fc4c26640fcfa864dbcc723beed0e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Woman 1.prefab using Guid(fc4c26640fcfa864dbcc723beed0e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e68450e6120134da961e2ee7a9ef484') in 0.067153 seconds
-  Import took 0.075579 seconds .
+  Time since last request: 0.000272 seconds.
+  path: Assets/Resources/Materials/MANO_1.mat
+  artifactKey: Guid(f67e544c68cf7924dad5ebbb7c5e9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/MANO_1.mat using Guid(f67e544c68cf7924dad5ebbb7c5e9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde4ecfd47d00ac687ea334a06d1fe42') in 0.025531 seconds
+  Import took 0.029513 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.284389 seconds.
-  path: Assets/Resources/Woman 1.prefab
-  artifactKey: Guid(fc4c26640fcfa864dbcc723beed0e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Woman 1.prefab using Guid(fc4c26640fcfa864dbcc723beed0e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce925dca154eb29f3861b61f6095781') in 0.060400 seconds
-  Import took 0.070255 seconds .
+  Time since last request: 0.000336 seconds.
+  path: Assets/Resources/Materials/VOLTO_1.png
+  artifactKey: Guid(816cb8e88a9dd2e41a551f808dce07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/VOLTO_1.png using Guid(816cb8e88a9dd2e41a551f808dce07bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b688bfe91d9d20e403d5eb431b36c80f') in 0.014082 seconds
+  Import took 0.018517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.382745 seconds.
-  path: Assets/Resources/Woman.prefab
-  artifactKey: Guid(fc4c26640fcfa864dbcc723beed0e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Woman.prefab using Guid(fc4c26640fcfa864dbcc723beed0e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d87d5a226adfcff670ded9e1bedc11') in 0.058207 seconds
-  Import took 0.067543 seconds .
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/Materials/VOLTO_1 1.png
+  artifactKey: Guid(34cfa4a025e462640919348774ddf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/VOLTO_1 1.png using Guid(34cfa4a025e462640919348774ddf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c608491d316a0f76610c8eb9aad76ffb') in 0.015362 seconds
+  Import took 0.019489 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.720573 seconds.
-  path: Assets/Resources/Man 1.prefab
-  artifactKey: Guid(36896b31d3f438044a61936089885bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Man 1.prefab using Guid(36896b31d3f438044a61936089885bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f494b31a2770cd53d43a034f6ef6e06d') in 0.101765 seconds
-  Import took 0.110880 seconds .
+  Time since last request: 0.000344 seconds.
+  path: Assets/Resources/Materials/GAMBE_1.png
+  artifactKey: Guid(7ba3ce08b70606c4aa76c11eccdbe772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1.png using Guid(7ba3ce08b70606c4aa76c11eccdbe772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08018821cc26bc5393e168f8a37841f8') in 0.012866 seconds
+  Import took 0.017062 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.256579 seconds.
-  path: Assets/Resources/Man 1.prefab
-  artifactKey: Guid(36896b31d3f438044a61936089885bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Man 1.prefab using Guid(36896b31d3f438044a61936089885bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed7049c78075d043e85f3286662c8e0') in 0.088458 seconds
-  Import took 0.108752 seconds .
+  Time since last request: 0.000358 seconds.
+  path: Assets/Resources/Materials/BUSTO_1.mat
+  artifactKey: Guid(7ab1d1ab76b0e6b40a1a887abcb53d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1.mat using Guid(7ab1d1ab76b0e6b40a1a887abcb53d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a809b27e9d4d5477b3438895cb0c05') in 0.017054 seconds
+  Import took 0.021181 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.503351 seconds.
-  path: Assets/Resources/Man.prefab
-  artifactKey: Guid(36896b31d3f438044a61936089885bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Man.prefab using Guid(36896b31d3f438044a61936089885bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d143fc59d00a8cbc9304fee059c249') in 0.087651 seconds
-  Import took 0.097287 seconds .
+  Time since last request: 0.000307 seconds.
+  path: Assets/Resources/Materials/MANO_1.png
+  artifactKey: Guid(053c2f785370d304da0e68205b9913b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/MANO_1.png using Guid(053c2f785370d304da0e68205b9913b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7e538aa1512d36fd4a1cfeb79f193c') in 0.013274 seconds
+  Import took 0.017696 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.076942 seconds.
-  path: Assets/Resources/Woman.prefab
-  artifactKey: Guid(fc4c26640fcfa864dbcc723beed0e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Woman.prefab using Guid(fc4c26640fcfa864dbcc723beed0e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11d0e779c5611c499d9bd30e723901d') in 0.055176 seconds
-  Import took 0.064486 seconds .
+  Time since last request: 0.000268 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1.png
+  artifactKey: Guid(e63d125d80b8ab24d8253c6306eb7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1.png using Guid(e63d125d80b8ab24d8253c6306eb7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6892d94332e97a8121cc350b2bd137e6') in 0.011840 seconds
+  Import took 0.015576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Resources/Materials/GAMBE_1 1.png
+  artifactKey: Guid(a55d784fb12aceb479e63b904847f109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1 1.png using Guid(a55d784fb12aceb479e63b904847f109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4387250951d0bb948f8ef532e987207e') in 0.014432 seconds
+  Import took 0.018473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 1.png
+  artifactKey: Guid(932854dad7e89b74f816d26ee23f8e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 1.png using Guid(932854dad7e89b74f816d26ee23f8e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761d0e2c64c1e7c94fddcbfcba771bc6') in 0.013924 seconds
+  Import took 0.017803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Resources/Materials/GAMBE_1.mat
+  artifactKey: Guid(cee8ae42c6facf549a66ec340b1990c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1.mat using Guid(cee8ae42c6facf549a66ec340b1990c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2f3e99237d6fccc5f75842b1086aca') in 0.013056 seconds
+  Import took 0.016991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Resources/Materials/VOLTO_1.mat
+  artifactKey: Guid(ab375ad9a690a62419d98a4436194c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/VOLTO_1.mat using Guid(ab375ad9a690a62419d98a4436194c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c85e433d787b08f9909419ce68ff552') in 0.012722 seconds
+  Import took 0.017334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Resources/Materials/MANO_1 1.png
+  artifactKey: Guid(2959603192af33c46a8334c56eaca24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/MANO_1 1.png using Guid(2959603192af33c46a8334c56eaca24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9da2d5d4f9dea7b30336f19071fbe5f') in 0.011804 seconds
+  Import took 0.015685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 1.png
+  artifactKey: Guid(ca65fce71d500bb43b1bbb7ae2169258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 1.png using Guid(ca65fce71d500bb43b1bbb7ae2169258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a5325337858f9b5dc8e879e3dcc7e1') in 0.010218 seconds
+  Import took 0.014299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1.mat
+  artifactKey: Guid(be87bae941eb04f45b94173027f455a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1.mat using Guid(be87bae941eb04f45b94173027f455a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fc327b5b237dd41ad6e0459a94224c') in 0.012878 seconds
+  Import took 0.017259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Resources/Materials/BUSTO_1.png
+  artifactKey: Guid(a3265ea948a379745b653c6cd4a9a60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1.png using Guid(a3265ea948a379745b653c6cd4a9a60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2593a1b7fea2378595c7e336d852a2') in 0.012651 seconds
+  Import took 0.016493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.155625 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 1.mat
+  artifactKey: Guid(ccb5b82e3a91d4b4485f620ca7a9a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 1.mat using Guid(ccb5b82e3a91d4b4485f620ca7a9a141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73a8e4d9caf8d86e7e877b44ce269fe') in 0.019226 seconds
+  Import took 0.023481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 2.png
+  artifactKey: Guid(f3298af66faa71c4fbd9b14cf9c77c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 2.png using Guid(f3298af66faa71c4fbd9b14cf9c77c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b62710ecd906039b63e0f8fb420e72') in 0.014593 seconds
+  Import took 0.018812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 3.png
+  artifactKey: Guid(cd31142992a00754c80ca43d7c4f9265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 3.png using Guid(cd31142992a00754c80ca43d7c4f9265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cbde6ed7bd9eae5964fab31981920d') in 0.013453 seconds
+  Import took 0.017538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Resources/Materials/GAMBE_1 2.png
+  artifactKey: Guid(26d03c1637c256e4fa7a7ad66e4555ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1 2.png using Guid(26d03c1637c256e4fa7a7ad66e4555ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6d583bbd8a3c8a2cff61061a5c58bc') in 0.016377 seconds
+  Import took 0.020194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Resources/Materials/GAMBE_1 3.png
+  artifactKey: Guid(2fc260582af9cdc4980da3274dacdfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1 3.png using Guid(2fc260582af9cdc4980da3274dacdfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167f1c5a9941d6de42a8b862826d93af') in 0.013411 seconds
+  Import took 0.017802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 1.mat
+  artifactKey: Guid(24673bb707ce0a84292f20a80b449efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 1.mat using Guid(24673bb707ce0a84292f20a80b449efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4d78e7a09d29052f85c8dc599961c6') in 0.007470 seconds
+  Import took 0.011851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Resources/Materials/GAMBE_1 1.mat
+  artifactKey: Guid(c2398a8edf872084d95f74b091b4e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1 1.mat using Guid(c2398a8edf872084d95f74b091b4e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac60a876b3a820ddcd8a86cfd9ae491') in 0.007228 seconds
+  Import took 0.010968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 2.png
+  artifactKey: Guid(ec39da4f23a969540ab0e24ec6341162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 2.png using Guid(ec39da4f23a969540ab0e24ec6341162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00d0305ccb43299057bb7c1823c895b') in 0.012345 seconds
+  Import took 0.015936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 3.png
+  artifactKey: Guid(b8154b6b23f50184991724b19d029a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 3.png using Guid(b8154b6b23f50184991724b19d029a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5bbf1fab66f0842783fd36ba9b0668') in 0.012769 seconds
+  Import took 0.017151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.913194 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 2.mat
+  artifactKey: Guid(220f43dd37fcc734fb5f20d7582c538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 2.mat using Guid(220f43dd37fcc734fb5f20d7582c538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8249617cab5a9292540f5859302228e') in 0.015345 seconds
+  Import took 0.020198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 6.png
+  artifactKey: Guid(b14e021fd99d30f4e9db52494665fed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 6.png using Guid(b14e021fd99d30f4e9db52494665fed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b176c912e9a565567fe4598496da6576') in 0.013899 seconds
+  Import took 0.017547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Resources/Materials/GAMBE_1 6.png
+  artifactKey: Guid(69bc577dfbccc0149acb15cc2e981598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1 6.png using Guid(69bc577dfbccc0149acb15cc2e981598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2338840bb1b81789f5a7ec8909d93f') in 0.016008 seconds
+  Import took 0.020984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Resources/Materials/VOLTO_1 2.png
+  artifactKey: Guid(4718cf87f0f0db5469fe689234374407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/VOLTO_1 2.png using Guid(4718cf87f0f0db5469fe689234374407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6875cd0ba9dc724c439f5f317054b4') in 0.015652 seconds
+  Import took 0.019619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 7.png
+  artifactKey: Guid(d4223251bab13c34181ec90d8806b17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 7.png using Guid(d4223251bab13c34181ec90d8806b17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237f7fd1217cef01926fe166259745fb') in 0.014010 seconds
+  Import took 0.018228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 3.mat
+  artifactKey: Guid(9da73d96b2ca0a7439dccbe8105ddbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 3.mat using Guid(9da73d96b2ca0a7439dccbe8105ddbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b43918b76d3127f72c1498482cd13c6') in 0.009186 seconds
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 7.png
+  artifactKey: Guid(fcf776231715141489be94215dd66a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 7.png using Guid(fcf776231715141489be94215dd66a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c832616d073f509dea2b37e11c5581') in 0.015842 seconds
+  Import took 0.019950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Resources/Materials/whole_model_group1Mat 1.mat
+  artifactKey: Guid(291d272a6b1a62348bcb54d42bd91a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/whole_model_group1Mat 1.mat using Guid(291d272a6b1a62348bcb54d42bd91a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db70be5a94b521d05313f21a6a495905') in 0.022651 seconds
+  Import took 0.026446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Resources/Materials/VOLTO_1 1.mat
+  artifactKey: Guid(52c775012613b6a478516202fe6dc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/VOLTO_1 1.mat using Guid(52c775012613b6a478516202fe6dc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c99afbf8b8eea3613d72e5989dd5b56') in 0.012174 seconds
+  Import took 0.015971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 3.mat
+  artifactKey: Guid(2bc1c7581b6268548b85933065f90764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 3.mat using Guid(2bc1c7581b6268548b85933065f90764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526278a2cf59d01381bfd8d3499e43d3') in 0.008762 seconds
+  Import took 0.012813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Resources/Materials/GAMBE_1 3.mat
+  artifactKey: Guid(d116e65ff855f59459f349620dc34711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1 3.mat using Guid(d116e65ff855f59459f349620dc34711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652f9ca5bb31ffcc3e4f3b5f1b70d5b3') in 0.009809 seconds
+  Import took 0.013889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Resources/Materials/VOLTO_1 3.png
+  artifactKey: Guid(cfc99afcb2f02ec4c983b8a49772b768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/VOLTO_1 3.png using Guid(cfc99afcb2f02ec4c983b8a49772b768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2556a6c02da37b3304a8ec068bad8682') in 0.014158 seconds
+  Import took 0.018697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Resources/Materials/GAMBE_1 2.mat
+  artifactKey: Guid(27539f378ae1a0543805596320317e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1 2.mat using Guid(27539f378ae1a0543805596320317e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff70fb8cd6566a243de51f85eb01ad0f') in 0.008938 seconds
+  Import took 0.013071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Resources/Materials/Remy_Top_Diffuse 1.mat
+  artifactKey: Guid(b464696906226734584611be967b6be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/Remy_Top_Diffuse 1.mat using Guid(b464696906226734584611be967b6be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f5b8c4be8274de9a50be65dd7e2348') in 0.023717 seconds
+  Import took 0.027696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 6.png
+  artifactKey: Guid(b579902bf3fbf064e8595ec371da5dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 6.png using Guid(b579902bf3fbf064e8595ec371da5dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd728b54eae3f1383b92146fdcdaa80') in 0.015466 seconds
+  Import took 0.019747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 2.mat
+  artifactKey: Guid(e019d16f14edbaf429900ff18e3a7546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 2.mat using Guid(e019d16f14edbaf429900ff18e3a7546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cb786af1d1cc7c58249efd811bc141') in 0.009035 seconds
+  Import took 0.013873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 4.png
+  artifactKey: Guid(b6656f3698cc92d4da719b7f1561db59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 4.png using Guid(b6656f3698cc92d4da719b7f1561db59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f920aec8fc8cd5bf9dce753f749a7f') in 0.014133 seconds
+  Import took 0.018125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Resources/Materials/GAMBE_1 5.png
+  artifactKey: Guid(ef606a7eb00dca24ab149019d0a3c84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1 5.png using Guid(ef606a7eb00dca24ab149019d0a3c84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b1984bc0f83f85f0f4a9d2cb95eed1') in 0.016039 seconds
+  Import took 0.019911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 4.png
+  artifactKey: Guid(65eb1d44975954e44979161a29effdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 4.png using Guid(65eb1d44975954e44979161a29effdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238177ff4c163b096cad5439f634a92e') in 0.014807 seconds
+  Import took 0.018492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 5.png
+  artifactKey: Guid(03cfc893a507f654cbf3cec2307f6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1 5.png using Guid(03cfc893a507f654cbf3cec2307f6eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31d515f335252952135fd560c45ed06') in 0.012546 seconds
+  Import took 0.016840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Resources/Materials/BUSTO_1 5.png
+  artifactKey: Guid(fa11c963ac916d94094487b5143f4797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1 5.png using Guid(fa11c963ac916d94094487b5143f4797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51d6a6c116e35e65b29cb2bb6feace5') in 0.017404 seconds
+  Import took 0.021526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/Materials/GAMBE_1 4.png
+  artifactKey: Guid(26176ed2e0223d94a930b6d34820ae85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1 4.png using Guid(26176ed2e0223d94a930b6d34820ae85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a461cf7df84defb7d36d17d35040eb0') in 0.014905 seconds
+  Import took 0.018652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.477601 seconds.
+  path: Assets/Resources/decimatedAhmed1 (4).fbx
+  artifactKey: Guid(d30bb4d9d84bff7488b42737e513d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/decimatedAhmed1 (4).fbx using Guid(d30bb4d9d84bff7488b42737e513d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497d2c3dbbe57a2ec916fd2a7091082b') in 0.275279 seconds
+  Import took 0.280622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.417108 seconds.
+  path: Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1.png
+  artifactKey: Guid(48c46ae5e4b041840b88910736e1a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BRACCIO+AVAMBRACCIO_1.png using Guid(48c46ae5e4b041840b88910736e1a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482861b3cff7a914d1f7da83528bb78f') in 0.010808 seconds
+  Import took 0.015519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Resources/Materials/MANO_1.png
+  artifactKey: Guid(2d9d5bcca26e0bf418070b543ac7a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/MANO_1.png using Guid(2d9d5bcca26e0bf418070b543ac7a29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f7f5a962f5b516b596f620460e7972') in 0.013018 seconds
+  Import took 0.017915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Resources/Materials/BUSTO_1.png
+  artifactKey: Guid(a3973990e71581949b362fcdf6c95cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/BUSTO_1.png using Guid(a3973990e71581949b362fcdf6c95cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622430ddb690bbec09eafb16897f3962') in 0.012641 seconds
+  Import took 0.016958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Resources/Materials/VOLTO_1.png
+  artifactKey: Guid(9b6bd040fbd3a554ea9d1749174a65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/VOLTO_1.png using Guid(9b6bd040fbd3a554ea9d1749174a65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89daf47c11df44acb3f3d3af17b5e70d') in 0.013024 seconds
+  Import took 0.017322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Resources/Materials/GAMBE_1.png
+  artifactKey: Guid(3b8c7963947e84946b7288dbb6fe4f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/GAMBE_1.png using Guid(3b8c7963947e84946b7288dbb6fe4f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f836a48b762780f3e852905cf3bbb3b0') in 0.011490 seconds
+  Import took 0.015778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023180 seconds.
+  path: Assets/Resources/Materials/VOLTO_1.png
+  artifactKey: Guid(9b6bd040fbd3a554ea9d1749174a65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/VOLTO_1.png using Guid(9b6bd040fbd3a554ea9d1749174a65b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89daf47c11df44acb3f3d3af17b5e70d') in 0.013125 seconds
+  Import took 0.017425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.488145 seconds.
+  path: Assets/Resources/Materials/bracelet.mat
+  artifactKey: Guid(efb4b49245473694d8372a18b66e7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Materials/bracelet.mat using Guid(efb4b49245473694d8372a18b66e7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10146d80e31a4dce77bb386658b8945') in 0.012485 seconds
+  Import took 0.016627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 679.853919 seconds.
+  path: Assets/Resources/Ahmed.fbx
+  artifactKey: Guid(7ce94bc6b0147ae4e820add4512cf457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Ahmed.fbx using Guid(7ce94bc6b0147ae4e820add4512cf457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0659bef7293cf33c688729911334417') in 0.167354 seconds
+  Import took 0.174693 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
