@@ -9,6 +9,7 @@ public class VRMap
 {
     public Transform vrTarget;
     public Transform rigTarget;
+    
     public Vector3 trackingPositionOffset;
     public Vector3 trackingRotationOffset;
 
@@ -61,8 +62,8 @@ public class VRRig : MonoBehaviour
             float leftHandTorsoRotation = RotationDifference(transform, leftHand.rigTarget);
             float rightHandTorsoRotation = RotationDifference(transform, rightHand.rigTarget);
             if (bodyRotation && 
-                Mathf.Abs(headTorsoRotation - leftHandTorsoRotation) < rotThreshold &&
-                Mathf.Abs(headTorsoRotation - rightHandTorsoRotation) < rotThreshold)
+                leftHandTorsoRotation > rotThreshold &&
+                rightHandTorsoRotation > rotThreshold)
             {
                 transform.forward = Vector3.Lerp(transform.forward, Vector3.ProjectOnPlane(head.rigTarget.forward, Vector3.up).normalized,
                                             Time.deltaTime * turnSmoothness);
