@@ -24,6 +24,11 @@ public class VRMap
 public class VRRig : MonoBehaviour
 {
     public float turnSmoothness;
+
+    public float avatarHeight;
+    public float avatarArmLength;
+    public Vector3 avatarEyeHeadOffset;
+    
     public VRMap head;
     public VRMap leftHand;
     public VRMap rightHand;
@@ -37,18 +42,66 @@ public class VRRig : MonoBehaviour
     public int rotThreshold = 10;
 
     private PhotonView photonView;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         photonView = GetComponent<PhotonView>();
+        animator = GetComponent<Animator>();
 
         XRRig rig = FindObjectOfType<XRRig>();
         vrHead = rig.transform.Find("Camera Offset/Main Camera");
         vrLeftHand = rig.transform.Find("Camera Offset/LeftHand Controller");
         vrRightHand = rig.transform.Find("Camera Offset/RightHand Controller");
 
+        Calibrate(rig);
+
         headBodyOffset = transform.position - head.rigTarget.position;
+    }
+
+    void Calibrate(XRRig rig)
+    {
+        float playerHeight = rig.GetComponent<Calibrator>().GetPlayerHeight();
+        float playerArmLength = rig.GetComponent<Calibrator>().GetPlayerArmLength();
+
+        //how much taller is the avatar
+        float offset = avatarHeight - playerHeight;
+        Transform cameraOffset = rig.transform.Find("Camera Offset");
+        Transform cam = rig.transform.Find("Camera Offset/Main Camera/Camera");
+
+        cameraOffset.position = new Vector3(0, offset, 0);
+        //how longer are the avatar's arms
+        offset = avatarArmLength - playerArmLength;
+        leftHand.trackingPositionOffset = new Vector3(0, 0, offset);
+        rightHand.trackingPositionOffset = new Vector3(0, 0, offset);
+        cam.localPosition = avatarEyeHeadOffset;
+    }
+
+    void OnAnimatorIK(int layerIndex)
+    {
+        if (photonView.IsMine)
+        {
+            if (vrRightHand)
+            {
+                float reach = animator.GetFloat("RightHand");
+                animator.SetIKPositionWeight(AvatarIKGoal.RightHand, reach);
+                animator.SetIKPosition(AvatarIKGoal.RightHand, vrRightHand.TransformPoint(rightHand.trackingPositionOffset));
+                animator.SetIKRotationWeight(AvatarIKGoal.RightHand, reach);
+                animator.SetIKRotation(AvatarIKGoal.RightHand, vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset));
+
+            }
+
+            if (vrLeftHand)
+            {
+                float reach = animator.GetFloat("LeftHand");
+                animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, reach);
+                animator.SetIKPosition(AvatarIKGoal.LeftHand, vrLeftHand.TransformPoint(leftHand.trackingPositionOffset));
+                animator.SetIKRotationWeight(AvatarIKGoal.LeftHand, reach);
+                animator.SetIKRotation(AvatarIKGoal.LeftHand, vrLeftHand.rotation * Quaternion.Euler(leftHand.trackingRotationOffset));
+
+            }
+        }
     }
 
     // Update is called once per frame
@@ -58,9 +111,9 @@ public class VRRig : MonoBehaviour
         {
             transform.position = head.rigTarget.position + headBodyOffset;
             //transform.forward = Vector3.ProjectOnPlane(head.rigTarget.transform.up, Vector3.up).normalized;
-            float headTorsoRotation = RotationDifference(transform, head.rigTarget);
-            float leftHandTorsoRotation = RotationDifference(transform, leftHand.rigTarget);
-            float rightHandTorsoRotation = RotationDifference(transform, rightHand.rigTarget);
+            //float headTorsoRotation = RotationDifference(transform, head.rigTarget);
+            float leftHandTorsoRotation = RotationDifference(transform, vrLeftHand);
+            float rightHandTorsoRotation = RotationDifference(transform, vrRightHand);
             if (bodyRotation && 
                 leftHandTorsoRotation > rotThreshold &&
                 rightHandTorsoRotation > rotThreshold)
@@ -70,8 +123,8 @@ public class VRRig : MonoBehaviour
             }
 
             head.Map(vrHead);
-            leftHand.Map(vrLeftHand);
-            rightHand.Map(vrRightHand);
+            //leftHand.Map(vrLeftHand);
+            //rightHand.Map(vrRightHand);
         }
     }
 
