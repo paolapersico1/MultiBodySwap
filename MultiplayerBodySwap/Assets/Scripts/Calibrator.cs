@@ -6,21 +6,28 @@ using UnityEngine.XR.Interaction.Toolkit;
 [System.Serializable]
 public class Calibrator : MonoBehaviour
 {
-    public float playerHeight;
+    public float playerHeadHeight;
     public float playerArmLength;
 
     public Transform vrHead;
     public Transform vrRightHand;
 
+    public float hmdHeadRootOffset = 0.1f; //hmd usually 10cm above head root
+    public float hmdHeadTopOffset = 0.05f; //hmd usually 5cm below head top
+    public float handWristOffset = 0.15f;  //hand length
+
     public void SetPlayerParams()
     {
-        playerHeight = vrHead.position.y;
-        playerArmLength = Mathf.Abs(vrRightHand.position.z - vrHead.position.z);
+        //distance between head root and ground
+        playerHeadHeight = vrHead.position.y - hmdHeadRootOffset;
+        //distance between head root and right hand
+        float playerHeight = vrHead.position.y + hmdHeadTopOffset;
+        playerArmLength = (playerHeight / 2.0f) - handWristOffset;
     }
 
-    public float GetPlayerHeight()
+    public float GetPlayerHeadHeight()
     {
-        return playerHeight;
+        return playerHeadHeight;
     }
 
     public float GetPlayerArmLength()

@@ -930,10 +930,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97613580872c7094ead675f090bc37d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHeight: 0
+  playerHeadHeight: 0
   playerArmLength: 0
   vrHead: {fileID: 1140496880}
   vrRightHand: {fileID: 2123360892}
+  hmdHeadRootOffset: 0.1
+  hmdHeadTopOffset: 0.05
+  handWristOffset: 0.15
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,7 +1099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -1774,7 +1777,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140496876}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}

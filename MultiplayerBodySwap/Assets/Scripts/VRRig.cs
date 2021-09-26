@@ -23,9 +23,7 @@ public class VRMap
 }
 public class VRRig : MonoBehaviour
 {
-    public float turnSmoothness;
-
-    public float avatarHeight;
+    public float avatarHeadHeight;
     public float avatarArmLength;
     public Vector3 avatarEyeHeadOffset;
     
@@ -37,9 +35,9 @@ public class VRRig : MonoBehaviour
     private Transform vrLeftHand;
     private Transform vrRightHand;
 
-    public Vector3 headBodyOffset;
     public bool bodyRotation = true;
     public int rotThreshold = 10;
+    public float turnSmoothness;
 
     private PhotonView photonView;
     Animator animator;
@@ -56,25 +54,26 @@ public class VRRig : MonoBehaviour
         vrRightHand = rig.transform.Find("Camera Offset/RightHand Controller");
 
         Calibrate(rig);
-
-        headBodyOffset = transform.position - head.rigTarget.position;
     }
 
     void Calibrate(XRRig rig)
     {
-        float playerHeight = rig.GetComponent<Calibrator>().GetPlayerHeight();
+        float playerHeadHeight = rig.GetComponent<Calibrator>().GetPlayerHeadHeight();
         float playerArmLength = rig.GetComponent<Calibrator>().GetPlayerArmLength();
 
         //how much taller is the avatar
-        float offset = avatarHeight - playerHeight;
+        avatarHeadHeight = head.rigTarget.position.y - transform.position.y;
+        float offset = avatarHeadHeight - playerHeadHeight;
         Transform cameraOffset = rig.transform.Find("Camera Offset");
-        Transform cam = rig.transform.Find("Camera Offset/Main Camera/Camera");
-
         cameraOffset.position = new Vector3(0, offset, 0);
+
         //how longer are the avatar's arms
+        avatarArmLength = Vector3.Distance(rightHand.rigTarget.position, head.rigTarget.position);
         offset = avatarArmLength - playerArmLength;
         leftHand.trackingPositionOffset = new Vector3(0, 0, offset);
         rightHand.trackingPositionOffset = new Vector3(0, 0, offset);
+
+        Transform cam = rig.transform.Find("Camera Offset/Main Camera/Camera");
         cam.localPosition = avatarEyeHeadOffset;
     }
 
@@ -109,7 +108,7 @@ public class VRRig : MonoBehaviour
     {
         if (photonView.IsMine)
         {
-            transform.position = head.rigTarget.position + headBodyOffset;
+            transform.position = head.rigTarget.position - new Vector3(0, avatarHeadHeight, 0);
             //transform.forward = Vector3.ProjectOnPlane(head.rigTarget.transform.up, Vector3.up).normalized;
             //float headTorsoRotation = RotationDifference(transform, head.rigTarget);
             float leftHandTorsoRotation = RotationDifference(transform, vrLeftHand);
