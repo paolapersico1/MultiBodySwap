@@ -23,6 +23,9 @@ public class Calibrator : MonoBehaviour
         //distance between head root and right hand
         float playerHeight = vrHead.position.y + hmdHeadTopOffset;
         playerArmLength = (playerHeight / 2.0f) - handWristOffset;
+
+        playerHeadHeight = 1.5f;
+        playerArmLength = 0.6f;
     }
 
     public float GetPlayerHeadHeight()

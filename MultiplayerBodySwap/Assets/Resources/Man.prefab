@@ -73,6 +73,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff563f525d66f84fa7f4f2499c1a079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  avatarHeight: 0
   avatarHeadHeight: 0
   avatarArmLength: 0
   avatarEyeHeadOffset: {x: 0.015, y: 0.073, z: 0.15}
@@ -85,15 +86,18 @@ MonoBehaviour:
     vrTarget: {fileID: 0}
     rigTarget: {fileID: 6253465600567079956}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 35, y: -15, z: 90}
+    trackingRotationOffset: {x: 0, y: 0, z: 0}
   rightHand:
     vrTarget: {fileID: 0}
     rigTarget: {fileID: 1531520505853877791}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
-    trackingRotationOffset: {x: 160, y: 200, z: 96}
+    trackingRotationOffset: {x: 0, y: 0, z: 0}
+  headTop: {fileID: 8380008890144460881}
   bodyRotation: 1
   rotThreshold: 10
   turnSmoothness: 5
+  headRotation: 0
+  handsTorsoRotation: 0
 --- !u!114 &2575823647309725132
 MonoBehaviour:
   m_ObjectHideFlags: 0

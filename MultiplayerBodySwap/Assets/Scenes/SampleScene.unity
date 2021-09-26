@@ -675,7 +675,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 544936543}
+      - m_Target: {fileID: 1280905857}
         m_TargetAssemblyTypeName: Calibrator, Assembly-CSharp
         m_MethodName: SetPlayerParams
         m_Mode: 1
@@ -684,6 +684,18 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 1.7
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1140496879}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -807,7 +819,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473768578}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &473768581
 Camera:
   m_ObjectHideFlags: 0
@@ -862,7 +874,6 @@ GameObject:
   - component: {fileID: 544936542}
   - component: {fileID: 544936541}
   - component: {fileID: 544936540}
-  - component: {fileID: 544936543}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Untagged
@@ -918,25 +929,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &544936543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544936539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97613580872c7094ead675f090bc37d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHeadHeight: 0
-  playerArmLength: 0
-  vrHead: {fileID: 1140496880}
-  vrRightHand: {fileID: 2123360892}
-  hmdHeadRootOffset: 0.1
-  hmdHeadTopOffset: 0.05
-  handWristOffset: 0.15
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,7 +1761,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140496876}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &1140496879
 Camera:
   m_ObjectHideFlags: 0
@@ -1777,7 +1769,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140496876}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -1933,6 +1925,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1280905856}
+  - component: {fileID: 1280905857}
   m_Layer: 0
   m_Name: Camera Offset
   m_TagString: Untagged
@@ -1957,6 +1950,25 @@ Transform:
   m_Father: {fileID: 544936542}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1280905857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280905855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97613580872c7094ead675f090bc37d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHeadHeight: 0
+  playerArmLength: 0
+  vrHead: {fileID: 1140496880}
+  vrRightHand: {fileID: 2123360892}
+  hmdHeadRootOffset: 0.1
+  hmdHeadTopOffset: 0.1
+  handWristOffset: 0.15
 --- !u!1 &1352598179
 GameObject:
   m_ObjectHideFlags: 0
@@ -2542,7 +2554,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833331159}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2556,7 +2568,7 @@ Transform:
   - {fileID: 1093469984}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1891762356
 GameObject:
   m_ObjectHideFlags: 0

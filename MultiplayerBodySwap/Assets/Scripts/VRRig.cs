@@ -23,6 +23,7 @@ public class VRMap
 }
 public class VRRig : MonoBehaviour
 {
+    public float avatarHeight;
     public float avatarHeadHeight;
     public float avatarArmLength;
     public Vector3 avatarEyeHeadOffset;
@@ -30,6 +31,7 @@ public class VRRig : MonoBehaviour
     public VRMap head;
     public VRMap leftHand;
     public VRMap rightHand;
+    public Transform headTop;
 
     private Transform vrHead;
     private Transform vrLeftHand;
@@ -38,6 +40,8 @@ public class VRRig : MonoBehaviour
     public bool bodyRotation = true;
     public int rotThreshold = 10;
     public float turnSmoothness;
+
+    public float handsTorsoRotation; //DEBUG
 
     private PhotonView photonView;
     Animator animator;
@@ -53,19 +57,19 @@ public class VRRig : MonoBehaviour
         vrLeftHand = rig.transform.Find("Camera Offset/LeftHand Controller");
         vrRightHand = rig.transform.Find("Camera Offset/RightHand Controller");
 
-        Calibrate(rig);
+        Calibrate(GameObject.Find("XR Rig/Camera Offset"));
     }
 
-    void Calibrate(XRRig rig)
+    void Calibrate(GameObject camOffset)
     {
-        float playerHeadHeight = rig.GetComponent<Calibrator>().GetPlayerHeadHeight();
-        float playerArmLength = rig.GetComponent<Calibrator>().GetPlayerArmLength();
+        float playerHeadHeight = camOffset.GetComponent<Calibrator>().GetPlayerHeadHeight();
+        float playerArmLength = camOffset.GetComponent<Calibrator>().GetPlayerArmLength();
 
         //how much taller is the avatar
+        avatarHeight = headTop.position.y - transform.position.y; //DEBUG
         avatarHeadHeight = head.rigTarget.position.y - transform.position.y;
         float offset = avatarHeadHeight - playerHeadHeight;
-        Transform cameraOffset = rig.transform.Find("Camera Offset");
-        cameraOffset.position = new Vector3(0, offset, 0);
+        camOffset.transform.position = new Vector3(0, offset, 0);
 
         //how longer are the avatar's arms
         avatarArmLength = Vector3.Distance(rightHand.rigTarget.position, head.rigTarget.position);
@@ -73,7 +77,7 @@ public class VRRig : MonoBehaviour
         leftHand.trackingPositionOffset = new Vector3(0, 0, offset);
         rightHand.trackingPositionOffset = new Vector3(0, 0, offset);
 
-        Transform cam = rig.transform.Find("Camera Offset/Main Camera/Camera");
+        Transform cam = camOffset.transform.Find("Main Camera/Camera");
         cam.localPosition = avatarEyeHeadOffset;
     }
 
@@ -108,28 +112,21 @@ public class VRRig : MonoBehaviour
     {
         if (photonView.IsMine)
         {
+            head.Map(vrHead);
             transform.position = head.rigTarget.position - new Vector3(0, avatarHeadHeight, 0);
-            //transform.forward = Vector3.ProjectOnPlane(head.rigTarget.transform.up, Vector3.up).normalized;
-            //float headTorsoRotation = RotationDifference(transform, head.rigTarget);
-            float leftHandTorsoRotation = RotationDifference(transform, vrLeftHand);
-            float rightHandTorsoRotation = RotationDifference(transform, vrRightHand);
-            if (bodyRotation && 
-                leftHandTorsoRotation > rotThreshold &&
-                rightHandTorsoRotation > rotThreshold)
+
+            Vector3 handsPosition = Vector3.Lerp(rightHand.rigTarget.position, leftHand.rigTarget.position, 0.5f);
+            handsTorsoRotation = Vector3.Angle(
+                                   Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized,
+                                   Vector3.ProjectOnPlane(handsPosition - transform.position, Vector3.up).normalized
+                                 );
+
+            if (bodyRotation && handsTorsoRotation > rotThreshold)
             {
+                //transform.forward = Vector3.ProjectOnPlane(head.rigTarget.transform.up, Vector3.up).normalized;
                 transform.forward = Vector3.Lerp(transform.forward, Vector3.ProjectOnPlane(head.rigTarget.forward, Vector3.up).normalized,
                                             Time.deltaTime * turnSmoothness);
             }
-
-            head.Map(vrHead);
-            //leftHand.Map(vrLeftHand);
-            //rightHand.Map(vrRightHand);
         }
-    }
-
-    private float RotationDifference(Transform firstTransform, Transform secondTransform)
-    {
-        return Quaternion.Angle(Quaternion.Euler(0, firstTransform.rotation.eulerAngles.y, 0),
-                Quaternion.Euler(0, secondTransform.rotation.eulerAngles.y, 0));
     }
 }
