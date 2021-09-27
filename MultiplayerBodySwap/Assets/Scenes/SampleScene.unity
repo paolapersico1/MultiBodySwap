@@ -615,9 +615,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1093469983}
-        m_TargetAssemblyTypeName: NetworkManager, Assembly-CSharp
-        m_MethodName: ConnectToServer
+      - m_Target: {fileID: 1280905857}
+        m_TargetAssemblyTypeName: Calibrator, Assembly-CSharp
+        m_MethodName: SetPlayerParams
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -675,9 +675,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1280905857}
-        m_TargetAssemblyTypeName: Calibrator, Assembly-CSharp
-        m_MethodName: SetPlayerParams
+      - m_Target: {fileID: 1093469983}
+        m_TargetAssemblyTypeName: NetworkManager, Assembly-CSharp
+        m_MethodName: ConnectToServer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -778,7 +778,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &473768578
 GameObject:
@@ -1031,7 +1031,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_LocalScale.x
@@ -1091,7 +1091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -1962,13 +1962,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97613580872c7094ead675f090bc37d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vrSimulator: 0
   playerHeadHeight: 0
   playerArmLength: 0
   vrHead: {fileID: 1140496880}
   vrRightHand: {fileID: 2123360892}
-  hmdHeadRootOffset: 0.1
-  hmdHeadTopOffset: 0.1
-  handWristOffset: 0.15
+  hmdHeadRootOffset: 0.03
+  handWristOffset: 0.18
 --- !u!1 &1352598179
 GameObject:
   m_ObjectHideFlags: 0

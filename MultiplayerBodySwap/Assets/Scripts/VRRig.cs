@@ -38,10 +38,10 @@ public class VRRig : MonoBehaviour
     private Transform vrRightHand;
 
     public bool bodyRotation = true;
-    public int rotThreshold = 10;
+    public int rotThreshold;
     public float turnSmoothness;
-
     public float handsTorsoRotation; //DEBUG
+    public float crouchingThreshold;
 
     private PhotonView photonView;
     Animator animator;
@@ -66,16 +66,16 @@ public class VRRig : MonoBehaviour
         float playerArmLength = camOffset.GetComponent<Calibrator>().GetPlayerArmLength();
 
         //how much taller is the avatar
-        avatarHeight = headTop.position.y - transform.position.y; //DEBUG
+        avatarHeight = headTop.position.y - transform.position.y;
+
         avatarHeadHeight = head.rigTarget.position.y - transform.position.y;
-        float offset = avatarHeadHeight - playerHeadHeight;
-        camOffset.transform.position = new Vector3(0, offset, 0);
+        camOffset.transform.position = new Vector3(0, avatarHeadHeight - playerHeadHeight, 0);
 
         //how longer are the avatar's arms
         avatarArmLength = Vector3.Distance(rightHand.rigTarget.position, head.rigTarget.position);
-        offset = avatarArmLength - playerArmLength;
-        leftHand.trackingPositionOffset = new Vector3(0, 0, offset);
-        rightHand.trackingPositionOffset = new Vector3(0, 0, offset);
+        float armOffset = avatarArmLength - playerArmLength;
+        leftHand.trackingPositionOffset = new Vector3(0, 0, armOffset);
+        rightHand.trackingPositionOffset = new Vector3(0, 0, armOffset);
 
         Transform cam = camOffset.transform.Find("Main Camera/Camera");
         cam.localPosition = avatarEyeHeadOffset;
@@ -113,13 +113,17 @@ public class VRRig : MonoBehaviour
         if (photonView.IsMine)
         {
             head.Map(vrHead);
-            transform.position = head.rigTarget.position - new Vector3(0, avatarHeadHeight, 0);
+            Vector3 newTorsoPosition = head.rigTarget.position - new Vector3(0, avatarHeadHeight, 0);
+            
+            transform.position = new Vector3(newTorsoPosition.x, 
+                                            IsCrouched(head.rigTarget.position)? newTorsoPosition.y : transform.position.y, 
+                                            newTorsoPosition.z);
 
             Vector3 handsPosition = Vector3.Lerp(rightHand.rigTarget.position, leftHand.rigTarget.position, 0.5f);
             handsTorsoRotation = Vector3.Angle(
-                                   Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized,
-                                   Vector3.ProjectOnPlane(handsPosition - transform.position, Vector3.up).normalized
-                                 );
+                                    Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized,
+                                    Vector3.ProjectOnPlane(handsPosition - transform.position, Vector3.up).normalized
+                                    );
 
             if (bodyRotation && handsTorsoRotation > rotThreshold)
             {
@@ -128,5 +132,20 @@ public class VRRig : MonoBehaviour
                                             Time.deltaTime * turnSmoothness);
             }
         }
+    }
+
+    private bool IsCrouched(Vector3 headPosition)
+    {
+        RaycastHit hit;
+        Ray ray = new Ray(headPosition, Vector3.down);
+
+        if(Physics.Raycast(ray, out hit))
+        {
+            float distance = Vector3.Distance(headPosition, hit.transform.position);
+            if (distance < (avatarHeight * crouchingThreshold))
+                return false;
+        }
+
+        return true;
     }
 }
