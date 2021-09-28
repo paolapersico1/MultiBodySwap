@@ -108,18 +108,17 @@ public class VRRig : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void OnAnimatorMove()
     {
         if (photonView.IsMine)
         {
-            head.Map(vrHead);
+            Vector3 handsPosition = Vector3.Lerp(rightHand.rigTarget.position, leftHand.rigTarget.position, 0.5f);
             Vector3 newTorsoPosition = head.rigTarget.position - new Vector3(0, avatarHeadHeight, 0);
-            
+
             transform.position = new Vector3(newTorsoPosition.x, 
                                             IsCrouched(head.rigTarget.position)? newTorsoPosition.y : transform.position.y, 
                                             newTorsoPosition.z);
 
-            Vector3 handsPosition = Vector3.Lerp(rightHand.rigTarget.position, leftHand.rigTarget.position, 0.5f);
             handsTorsoRotation = Vector3.Angle(
                                     Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized,
                                     Vector3.ProjectOnPlane(handsPosition - transform.position, Vector3.up).normalized
@@ -131,6 +130,7 @@ public class VRRig : MonoBehaviour
                 transform.forward = Vector3.Lerp(transform.forward, Vector3.ProjectOnPlane(head.rigTarget.forward, Vector3.up).normalized,
                                             Time.deltaTime * turnSmoothness);
             }
+            head.Map(vrHead);
         }
     }
 
