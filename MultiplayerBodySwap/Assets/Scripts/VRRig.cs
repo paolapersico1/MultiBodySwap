@@ -59,7 +59,10 @@ public class VRRig : MonoBehaviour
         vrLeftHand = rig.transform.Find("Camera Offset/LeftHand Controller");
         vrRightHand = rig.transform.Find("Camera Offset/RightHand Controller");
 
-        Calibrate(GameObject.Find("XR Rig/Camera Offset"));
+        if (photonView.IsMine)
+        {
+            Calibrate(GameObject.Find("XR Rig/Camera Offset"));
+        }
     }
 
     void Calibrate(GameObject camOffset)
