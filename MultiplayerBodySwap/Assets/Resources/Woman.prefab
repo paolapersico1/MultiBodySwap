@@ -550,9 +550,74 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: 320140650539940890}
   - {fileID: 320140650539940893}
+  - {fileID: 2152797823530603228}
+  - {fileID: 6605212892253383656}
+  - {fileID: 3004613377893675890}
+  - {fileID: 8789179677555028727}
   - {fileID: 320140650179595497}
+  - {fileID: 3700210373586447743}
+  - {fileID: 1248148528208937301}
+  - {fileID: 5815498515141887391}
+  - {fileID: 7459735332512932465}
+  - {fileID: 1108622088011848151}
+  - {fileID: 4616691157429498522}
+  - {fileID: 663209235970693893}
+  - {fileID: 5857875200815739296}
+  - {fileID: 5399539398002414662}
+  - {fileID: 6162094691124600962}
+  - {fileID: 965631906295402232}
+  - {fileID: 2051151736351244534}
+  - {fileID: 7541136709474976899}
+  - {fileID: 3942808662337593016}
+  - {fileID: 3505739443644254884}
+  - {fileID: 6927026349375204620}
+  - {fileID: 1551783586031609632}
+  - {fileID: 5894905775722879577}
+  - {fileID: 3562487301284955403}
   - {fileID: 320140650539940889}
+  - {fileID: 0}
   - {fileID: 320140650539940888}
+  - {fileID: 0}
+  - {fileID: 7803683719771058545}
+  - {fileID: 3226853414795500789}
+  - {fileID: 9033791314135553328}
+  - {fileID: 3708487627841667225}
+  - {fileID: 8759302410338682499}
+  - {fileID: 4030436987910840509}
+  - {fileID: 6144735015424506545}
+  - {fileID: 7013619193465118290}
+  - {fileID: 7628431858231842223}
+  - {fileID: 2835805141121047709}
+  - {fileID: 6918016590882705386}
+  - {fileID: 8757202248852213108}
+  - {fileID: 9083908522456204420}
+  - {fileID: 4009141605123310358}
+  - {fileID: 7314424956334326891}
+  - {fileID: 5277354312943235766}
+  - {fileID: 2035915200098369510}
+  - {fileID: 6584177522750116872}
+  - {fileID: 2312364071079562387}
+  - {fileID: 8800227257196013497}
+  - {fileID: 2816836192965291133}
+  - {fileID: 6413774022628634972}
+  - {fileID: 2575809118898957165}
+  - {fileID: 7056663727728423209}
+  - {fileID: 710117675939743269}
+  - {fileID: 4079477267819706832}
+  - {fileID: 1211770907735109153}
+  - {fileID: 5167038733651460080}
+  - {fileID: 889875100423227257}
+  - {fileID: 7396331467851087861}
+  - {fileID: 981760343486204498}
+  - {fileID: 3999466848947839809}
+  - {fileID: 8066204780595679900}
+  - {fileID: 7747554497584479313}
+  - {fileID: 8799856128843571634}
+  - {fileID: 2832851615524706071}
+  - {fileID: 8958192475185735092}
+  - {fileID: 402881122311460625}
+  - {fileID: 9108979477932783000}
+  - {fileID: 2995216032485659320}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -1100,7 +1165,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2145106452068664075}
   - component: {fileID: 320140650539940888}
-  - component: {fileID: 3480267458811953176}
   m_Layer: 0
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
@@ -1128,22 +1192,6 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &320140650539940888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2440668940921098690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1
---- !u!114 &3480267458811953176
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2116,7 +2164,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6795152206878927104}
   - component: {fileID: 320140650539940889}
-  - component: {fileID: 3373991186754640551}
   m_Layer: 0
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
@@ -2144,22 +2191,6 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &320140650539940889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4183878191903077647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1
---- !u!114 &3373991186754640551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
