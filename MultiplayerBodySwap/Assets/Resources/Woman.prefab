@@ -327,6 +327,7 @@ MonoBehaviour:
   avatarHeadHeight: 0
   avatarArmLength: 0
   avatarEyeHeadOffset: {x: 0, y: 0.1, z: 0.1}
+  torsoOffset: 0.03
   head:
     vrTarget: {fileID: 0}
     rigTarget: {fileID: 320140650179595495}
@@ -348,7 +349,6 @@ MonoBehaviour:
   turnSmoothness: 5
   handsTorsoRotation: 0
   crouchingThreshold: 0.86
-  bendingThreshold: 0
   leftHandTarget: {fileID: 8510484619197016206}
   rightHandTarget: {fileID: 7583209423392434681}
 --- !u!114 &320140650539940885
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626061819346502034}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2d8418b0b9634b1892b0268dd9c2743, type: 3}
   m_Name: 

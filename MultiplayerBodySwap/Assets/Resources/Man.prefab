@@ -77,6 +77,7 @@ MonoBehaviour:
   avatarHeadHeight: 0
   avatarArmLength: 0
   avatarEyeHeadOffset: {x: 0.015, y: 0.15, z: 0.16}
+  torsoOffset: 0.03
   head:
     vrTarget: {fileID: 0}
     rigTarget: {fileID: 4772876191554401158}
@@ -98,7 +99,6 @@ MonoBehaviour:
   turnSmoothness: 5
   handsTorsoRotation: 0
   crouchingThreshold: 0.86
-  bendingThreshold: 0.5
   leftHandTarget: {fileID: 8295309581768977261}
   rightHandTarget: {fileID: 8222444475636260568}
 --- !u!114 &2575823647309725132

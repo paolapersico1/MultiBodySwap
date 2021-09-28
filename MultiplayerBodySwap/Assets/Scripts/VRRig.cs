@@ -27,6 +27,7 @@ public class VRRig : MonoBehaviour
     public float avatarHeadHeight;
     public float avatarArmLength;
     public Vector3 avatarEyeHeadOffset;
+    public float torsoOffset;
     
     public VRMap head;
     public VRMap leftHand;
@@ -42,7 +43,6 @@ public class VRRig : MonoBehaviour
     public float turnSmoothness;
     public float handsTorsoRotation; //DEBUG
     public float crouchingThreshold;
-    public float bendingThreshold;
 
     public Transform leftHandTarget;
     public Transform rightHandTarget;
@@ -93,37 +93,36 @@ public class VRRig : MonoBehaviour
     {
         if (photonView.IsMine)
         {
-            float bendingPoint = playerArmLength / bendingThreshold;
             if (vrRightHand)
             {
-                
-                bool isArmBended = IsArmBended(vrRightHand, bendingPoint);
-                Vector3 goalPosition = (isArmBended) ? vrRightHand.TransformPoint(rightHand.trackingPositionOffset) : vrRightHand.position;
+
+                Vector3 goalPosition = vrRightHand.TransformPoint(rightHand.trackingPositionOffset);
                 rightHandTarget.position = goalPosition;
                 
-                //Quaternion goalRotation = vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset);
-                //animator.SetIKRotationWeight(AvatarIKGoal.RightHand, reach);
-                //animator.SetIKRotation(AvatarIKGoal.RightHand, goalRotation);
+                Quaternion goalRotation = vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset);
+                rightHandTarget.rotation = goalRotation;
             }
             if (vrLeftHand)
             {
-               
-                bool isArmBended = IsArmBended(vrLeftHand, bendingPoint);
-                Vector3 goalPosition = (isArmBended) ? vrLeftHand.TransformPoint(leftHand.trackingPositionOffset) : vrLeftHand.position;
+                Vector3 goalPosition = vrLeftHand.TransformPoint(leftHand.trackingPositionOffset);
                 leftHandTarget.position = goalPosition;
                 
-                //Quaternion goalRotation = vrLeftHand.rotation * Quaternion.Euler(leftHand.trackingRotationOffset);
-                //animator.SetIKRotationWeight(AvatarIKGoal.LeftHand, reach);
-                //animator.SetIKRotation(AvatarIKGoal.LeftHand, goalRotation);
+                Quaternion goalRotation = vrLeftHand.rotation * Quaternion.Euler(leftHand.trackingRotationOffset);
+                leftHandTarget.rotation = goalRotation;
             }
         }
 
         float reach = animator.GetFloat("RightHand");
         animator.SetIKPositionWeight(AvatarIKGoal.RightHand, reach);
         animator.SetIKPosition(AvatarIKGoal.RightHand, rightHandTarget.position);
+        animator.SetIKRotationWeight(AvatarIKGoal.RightHand, reach);
+        animator.SetIKRotation(AvatarIKGoal.RightHand, rightHandTarget.rotation);
+
         reach = animator.GetFloat("LeftHand");
         animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, reach);
         animator.SetIKPosition(AvatarIKGoal.LeftHand, leftHandTarget.position);
+        animator.SetIKRotationWeight(AvatarIKGoal.LeftHand, reach);
+        animator.SetIKRotation(AvatarIKGoal.LeftHand, leftHandTarget.rotation);
     }
 
     // Update is called once per frame
@@ -132,7 +131,7 @@ public class VRRig : MonoBehaviour
         if (photonView.IsMine)
         {
             Vector3 handsPosition = Vector3.Lerp(rightHand.rigTarget.position, leftHand.rigTarget.position, 0.5f);
-            Vector3 newTorsoPosition = head.rigTarget.position - new Vector3(0, avatarHeadHeight, 0);
+            Vector3 newTorsoPosition = head.rigTarget.position - new Vector3(0, avatarHeadHeight, torsoOffset);
 
             transform.position = new Vector3(newTorsoPosition.x, 
                                             IsCrouched(head.rigTarget.position)? newTorsoPosition.y : transform.position.y, 
@@ -149,6 +148,7 @@ public class VRRig : MonoBehaviour
                 transform.forward = Vector3.Lerp(transform.forward, Vector3.ProjectOnPlane(head.rigTarget.forward, Vector3.up).normalized,
                                             Time.deltaTime * turnSmoothness);
             }
+
             head.Map(vrHead);
         }
     }
@@ -166,10 +166,5 @@ public class VRRig : MonoBehaviour
         }
 
         return true;
-    }
-
-    private bool IsArmBended(Transform vrHand, float bendingPoint)
-    {
-        return (Mathf.Abs(vrHand.position.z - transform.position.z) < bendingPoint);
     }
 }
