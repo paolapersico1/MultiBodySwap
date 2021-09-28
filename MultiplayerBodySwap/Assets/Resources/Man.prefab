@@ -99,6 +99,8 @@ MonoBehaviour:
   handsTorsoRotation: 0
   crouchingThreshold: 0.86
   bendingThreshold: 0.5
+  leftHandTarget: {fileID: 8295309581768977261}
+  rightHandTarget: {fileID: 8222444475636260568}
 --- !u!114 &2575823647309725132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,6 +254,8 @@ MonoBehaviour:
   - {fileID: 5890040284810267670}
   - {fileID: 3365998959506543272}
   - {fileID: 2255805115413029472}
+  - {fileID: 6019731340218313062}
+  - {fileID: 1327855278121297785}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
