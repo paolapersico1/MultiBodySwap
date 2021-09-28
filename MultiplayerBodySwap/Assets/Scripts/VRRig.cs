@@ -42,9 +42,11 @@ public class VRRig : MonoBehaviour
     public float turnSmoothness;
     public float handsTorsoRotation; //DEBUG
     public float crouchingThreshold;
+    public float bendingThreshold;
 
     private PhotonView photonView;
-    Animator animator;
+    private Animator animator;
+    private float playerArmLength;
 
     // Start is called before the first frame update
     void Start()
@@ -63,7 +65,7 @@ public class VRRig : MonoBehaviour
     void Calibrate(GameObject camOffset)
     {
         float playerHeadHeight = camOffset.GetComponent<Calibrator>().GetPlayerHeadHeight();
-        float playerArmLength = camOffset.GetComponent<Calibrator>().GetPlayerArmLength();
+        playerArmLength = camOffset.GetComponent<Calibrator>().GetPlayerArmLength();
 
         //how much taller is the avatar
         avatarHeight = headTop.position.y - transform.position.y;
@@ -85,11 +87,14 @@ public class VRRig : MonoBehaviour
     {
         if (photonView.IsMine)
         {
+            float bendingPoint = playerArmLength / bendingThreshold;
             if (vrRightHand)
             {
                 float reach = animator.GetFloat("RightHand");
+                bool isArmBended = IsArmBended(vrRightHand, bendingPoint);
+                Vector3 goalPosition = (isArmBended) ? vrRightHand.TransformPoint(rightHand.trackingPositionOffset) : vrRightHand.position;
                 animator.SetIKPositionWeight(AvatarIKGoal.RightHand, reach);
-                animator.SetIKPosition(AvatarIKGoal.RightHand, vrRightHand.TransformPoint(rightHand.trackingPositionOffset));
+                animator.SetIKPosition(AvatarIKGoal.RightHand, goalPosition);
                 animator.SetIKRotationWeight(AvatarIKGoal.RightHand, reach);
                 animator.SetIKRotation(AvatarIKGoal.RightHand, vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset));
 
@@ -98,8 +103,10 @@ public class VRRig : MonoBehaviour
             if (vrLeftHand)
             {
                 float reach = animator.GetFloat("LeftHand");
+                bool isArmBended = IsArmBended(vrLeftHand, bendingPoint);
+                Vector3 goalPosition = (isArmBended) ? vrLeftHand.TransformPoint(leftHand.trackingPositionOffset) : vrLeftHand.position;
                 animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, reach);
-                animator.SetIKPosition(AvatarIKGoal.LeftHand, vrLeftHand.TransformPoint(leftHand.trackingPositionOffset));
+                animator.SetIKPosition(AvatarIKGoal.LeftHand, goalPosition);
                 animator.SetIKRotationWeight(AvatarIKGoal.LeftHand, reach);
                 animator.SetIKRotation(AvatarIKGoal.LeftHand, vrLeftHand.rotation * Quaternion.Euler(leftHand.trackingRotationOffset));
 
@@ -147,5 +154,10 @@ public class VRRig : MonoBehaviour
         }
 
         return true;
+    }
+
+    private bool IsArmBended(Transform vrHand, float bendingPoint)
+    {
+        return (Mathf.Abs(vrHand.position.z - transform.position.z) < bendingPoint);
     }
 }

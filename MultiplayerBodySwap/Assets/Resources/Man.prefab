@@ -98,6 +98,7 @@ MonoBehaviour:
   turnSmoothness: 5
   handsTorsoRotation: 0
   crouchingThreshold: 0.86
+  bendingThreshold: 0.5
 --- !u!114 &2575823647309725132
 MonoBehaviour:
   m_ObjectHideFlags: 0
