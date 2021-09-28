@@ -327,7 +327,7 @@ MonoBehaviour:
   avatarHeadHeight: 0
   avatarArmLength: 0
   avatarEyeHeadOffset: {x: 0, y: 0.1, z: 0.1}
-  torsoOffset: 0.03
+  torsoOffset: 0.08
   head:
     vrTarget: {fileID: 0}
     rigTarget: {fileID: 320140650179595495}
