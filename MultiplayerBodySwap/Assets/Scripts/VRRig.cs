@@ -44,6 +44,9 @@ public class VRRig : MonoBehaviour
     public float crouchingThreshold;
     public float bendingThreshold;
 
+    public Transform leftHandTarget;
+    public Transform rightHandTarget;
+
     private PhotonView photonView;
     private Animator animator;
     private float playerArmLength;
@@ -88,44 +91,39 @@ public class VRRig : MonoBehaviour
 
     void OnAnimatorIK(int layerIndex)
     {
-        float bendingPoint = playerArmLength / bendingThreshold;
-        if (vrRightHand)
+        if (photonView.IsMine)
         {
-            float reach = animator.GetFloat("LeftHand");
-            bool isArmBended = IsArmBended(vrRightHand, bendingPoint);
-            Vector3 goalPosition = (isArmBended) ? vrRightHand.TransformPoint(rightHand.trackingPositionOffset) : vrRightHand.position;
-            animator.SetFloat("rightHandX", goalPosition.x);
-            animator.SetFloat("rightHandY", goalPosition.y);
-            animator.SetFloat("rightHandZ", goalPosition.z);
+            float bendingPoint = playerArmLength / bendingThreshold;
+            if (vrRightHand)
+            {
                 
-
+                bool isArmBended = IsArmBended(vrRightHand, bendingPoint);
+                Vector3 goalPosition = (isArmBended) ? vrRightHand.TransformPoint(rightHand.trackingPositionOffset) : vrRightHand.position;
+                rightHandTarget.position = goalPosition;
+                
+                //Quaternion goalRotation = vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset);
+                //animator.SetIKRotationWeight(AvatarIKGoal.RightHand, reach);
+                //animator.SetIKRotation(AvatarIKGoal.RightHand, goalRotation);
+            }
+            if (vrLeftHand)
+            {
+               
+                bool isArmBended = IsArmBended(vrLeftHand, bendingPoint);
+                Vector3 goalPosition = (isArmBended) ? vrLeftHand.TransformPoint(leftHand.trackingPositionOffset) : vrLeftHand.position;
+                leftHandTarget.position = goalPosition;
+                
+                //Quaternion goalRotation = vrLeftHand.rotation * Quaternion.Euler(leftHand.trackingRotationOffset);
+                //animator.SetIKRotationWeight(AvatarIKGoal.LeftHand, reach);
+                //animator.SetIKRotation(AvatarIKGoal.LeftHand, goalRotation);
+            }
         }
 
-        if (vrLeftHand)
-        {
-            float reach = animator.GetFloat("LeftHand");
-            bool isArmBended = IsArmBended(vrLeftHand, bendingPoint);
-            Vector3 goalPosition = (isArmBended) ? vrLeftHand.TransformPoint(leftHand.trackingPositionOffset) : vrLeftHand.position;
-            animator.SetFloat("leftHandX", goalPosition.x);
-            animator.SetFloat("leftHandY", goalPosition.y);
-            animator.SetFloat("leftHandZ", goalPosition.z);
-        }
-
-        animator.SetIKPositionWeight(AvatarIKGoal.RightHand, animator.GetFloat("RightHand"));
-        Vector3 rGoalPosition = new Vector3(animator.GetFloat("rightHandX"), 
-                                            animator.GetFloat("rightHandY"), 
-                                            animator.GetFloat("rightHandZ"));
-        animator.SetIKPosition(AvatarIKGoal.RightHand, rGoalPosition);
-        //animator.SetIKRotationWeight(AvatarIKGoal.RightHand, reach);
-        //animator.SetIKRotation(AvatarIKGoal.RightHand, vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset));
-
-        animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, animator.GetFloat("LeftHand"));
-        Vector3 lGoalPosition = new Vector3(animator.GetFloat("leftHandX"),
-                                            animator.GetFloat("leftHandY"),
-                                            animator.GetFloat("leftHandZ"));
-        animator.SetIKPosition(AvatarIKGoal.LeftHand, lGoalPosition);
-        //animator.SetIKRotationWeight(AvatarIKGoal.LeftHand, reach);
-        //animator.SetIKRotation(AvatarIKGoal.LeftHand, vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset));
+        float reach = animator.GetFloat("RightHand");
+        animator.SetIKPositionWeight(AvatarIKGoal.RightHand, reach);
+        animator.SetIKPosition(AvatarIKGoal.RightHand, rightHandTarget.position);
+        reach = animator.GetFloat("LeftHand");
+        animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, reach);
+        animator.SetIKPosition(AvatarIKGoal.LeftHand, leftHandTarget.position);
     }
 
     // Update is called once per frame
