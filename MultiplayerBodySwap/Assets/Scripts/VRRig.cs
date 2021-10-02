@@ -131,11 +131,6 @@ public class VRRig : MonoBehaviour
         if (photonView.IsMine)
         {
             Vector3 handsPosition = Vector3.Lerp(rightHand.rigTarget.position, leftHand.rigTarget.position, 0.5f);
-            Vector3 newTorsoPosition = head.rigTarget.position - new Vector3(0, avatarHeadHeight, torsoOffset);
-
-            transform.position = new Vector3(newTorsoPosition.x, 
-                                            IsCrouched(head.rigTarget.position)? newTorsoPosition.y : transform.position.y, 
-                                            newTorsoPosition.z);
 
             handsTorsoRotation = Vector3.Angle(
                                     Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized,
@@ -148,6 +143,11 @@ public class VRRig : MonoBehaviour
                 transform.forward = Vector3.Lerp(transform.forward, Vector3.ProjectOnPlane(head.rigTarget.forward, Vector3.up).normalized,
                                             Time.deltaTime * turnSmoothness);
             }
+
+            transform.position = new Vector3(head.rigTarget.position.x,
+                                            IsCrouched(head.rigTarget.position) ? head.rigTarget.position.y - avatarHeadHeight :
+                                                                                  transform.position.y,
+                                            head.rigTarget.position.z) + transform.forward * torsoOffset;
 
             head.Map(vrHead);
         }

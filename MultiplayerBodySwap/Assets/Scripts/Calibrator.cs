@@ -12,7 +12,6 @@ public class Calibrator : MonoBehaviour
     public float playerArmLength;
 
     public Transform vrHead;
-    public Transform vrRightHand;
 
     public float hmdHeadRootOffset = 0.03f;  //hmd usually 5cm above head root
     public float handWristOffset = 0.18f;  //hand length
