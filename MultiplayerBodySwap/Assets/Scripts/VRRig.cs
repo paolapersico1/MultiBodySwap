@@ -49,6 +49,7 @@ public class VRRig : MonoBehaviour
 
     private PhotonView photonView;
     private Animator animator;
+
     private float playerArmLength;
 
     // Start is called before the first frame update
@@ -59,8 +60,8 @@ public class VRRig : MonoBehaviour
 
         XRRig rig = FindObjectOfType<XRRig>();
         vrHead = rig.transform.Find("Camera Offset/Main Camera");
-        vrLeftHand = rig.transform.Find("Camera Offset/LeftHand Controller");
-        vrRightHand = rig.transform.Find("Camera Offset/RightHand Controller");
+        vrLeftHand = rig.transform.Find("Camera Offset/LeftHand Controller/LeftHandCollider");
+        vrRightHand = rig.transform.Find("Camera Offset/RightHand Controller/RightHandCollider");
 
         if (photonView.IsMine)
         {
@@ -84,6 +85,8 @@ public class VRRig : MonoBehaviour
         float armOffset = avatarArmLength - playerArmLength;
         leftHand.trackingPositionOffset = new Vector3(0, 0, armOffset);
         rightHand.trackingPositionOffset = new Vector3(0, 0, armOffset);
+        vrLeftHand.localPosition = leftHand.trackingPositionOffset;
+        vrRightHand.localPosition = rightHand.trackingPositionOffset;
 
         Transform cam = camOffset.transform.Find("Main Camera/Camera");
         cam.localPosition = avatarEyeHeadOffset;
@@ -95,20 +98,25 @@ public class VRRig : MonoBehaviour
         {
             if (vrRightHand)
             {
+                if (!HasCollided(vrRightHand))
+                {
+                    Vector3 goalPosition = vrRightHand.TransformPoint(rightHand.trackingPositionOffset);
+                    rightHandTarget.position = goalPosition;
 
-                Vector3 goalPosition = vrRightHand.TransformPoint(rightHand.trackingPositionOffset);
-                rightHandTarget.position = goalPosition;
-                
-                Quaternion goalRotation = vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset);
-                rightHandTarget.rotation = goalRotation;
+                    Quaternion goalRotation = vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset);
+                    rightHandTarget.rotation = goalRotation;
+                }
             }
             if (vrLeftHand)
             {
-                Vector3 goalPosition = vrLeftHand.TransformPoint(leftHand.trackingPositionOffset);
-                leftHandTarget.position = goalPosition;
-                
-                Quaternion goalRotation = vrLeftHand.rotation * Quaternion.Euler(leftHand.trackingRotationOffset);
-                leftHandTarget.rotation = goalRotation;
+                if (!HasCollided(vrLeftHand))
+                {
+                    Vector3 goalPosition = vrLeftHand.TransformPoint(leftHand.trackingPositionOffset);
+                    leftHandTarget.position = goalPosition;
+
+                    Quaternion goalRotation = vrLeftHand.rotation * Quaternion.Euler(leftHand.trackingRotationOffset);
+                    leftHandTarget.rotation = goalRotation;
+                }
             }
         }
 
@@ -167,4 +175,6 @@ public class VRRig : MonoBehaviour
 
         return true;
     }
+
+    private bool HasCollided(Transform bodyPart) => bodyPart.gameObject.GetComponent<CollisionDetection>().HasCollided();
 }
