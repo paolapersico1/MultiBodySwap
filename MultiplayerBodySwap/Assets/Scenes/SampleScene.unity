@@ -219,6 +219,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7624175}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &42872776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42872777}
+  - component: {fileID: 42872778}
+  m_Layer: 2
+  m_Name: Player Offset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42872777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42872776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1280905856}
+  m_Father: {fileID: 544936542}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42872778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42872776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97613580872c7094ead675f090bc37d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vrSimulator: 0
+  playerHeadHeight: 0
+  playerArmLength: 0
+  vrHead: {fileID: 1140496880}
+  hmdHeadRootOffset: 0.03
+  handWristOffset: 0.18
 --- !u!1 &79781414
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +352,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1280905857}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Calibrator, Assembly-CSharp
         m_MethodName: SetPlayerParams
         m_Mode: 1
@@ -627,7 +677,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1280905857}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Calibrator, Assembly-CSharp
         m_MethodName: SetPlayerParams
         m_Mode: 1
@@ -803,7 +853,7 @@ GameObject:
   - component: {fileID: 473768579}
   - component: {fileID: 473768581}
   - component: {fileID: 473768580}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -886,7 +936,7 @@ GameObject:
   - component: {fileID: 544936542}
   - component: {fileID: 544936541}
   - component: {fileID: 544936540}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: XR Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -937,7 +987,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1280905856}
+  - {fileID: 42872777}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1216,7 +1266,7 @@ GameObject:
   - component: {fileID: 1034138654}
   - component: {fileID: 1034138653}
   - component: {fileID: 1034138652}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LeftHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1714,7 +1764,7 @@ GameObject:
   - component: {fileID: 1140496879}
   - component: {fileID: 1140496878}
   - component: {fileID: 1140496877}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1938,8 +1988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1280905856}
-  - component: {fileID: 1280905857}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1960,27 +2009,9 @@ Transform:
   - {fileID: 1140496880}
   - {fileID: 1034138651}
   - {fileID: 2123360892}
-  m_Father: {fileID: 544936542}
+  m_Father: {fileID: 42872777}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1280905857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280905855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97613580872c7094ead675f090bc37d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vrSimulator: 0
-  playerHeadHeight: 0
-  playerArmLength: 0
-  vrHead: {fileID: 1140496880}
-  hmdHeadRootOffset: 0.03
-  handWristOffset: 0.18
 --- !u!1 &1312233940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,7 +2024,7 @@ GameObject:
   - component: {fileID: 1312233944}
   - component: {fileID: 1312233943}
   - component: {fileID: 1312233942}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RightHandCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2958,7 +2989,7 @@ GameObject:
   - component: {fileID: 2123360895}
   - component: {fileID: 2123360894}
   - component: {fileID: 2123360893}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RightHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3455,7 +3486,7 @@ GameObject:
   - component: {fileID: 4198104176454444926}
   - component: {fileID: 4198104176454444927}
   - component: {fileID: 4198104176454444924}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LeftHandCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
