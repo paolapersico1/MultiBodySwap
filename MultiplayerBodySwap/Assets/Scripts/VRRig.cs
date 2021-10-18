@@ -66,6 +66,10 @@ public class VRRig : MonoBehaviour
         vrLeftHand = rig.transform.Find("Player Offset/Camera Offset/LeftHand Controller/LeftHandCollider");
         vrRightHand = rig.transform.Find("Player Offset/Camera Offset/RightHand Controller/RightHandCollider");
 
+        head.vrTarget = vrHead;
+        leftHand.vrTarget = vrLeftHand;
+        rightHand.vrTarget = vrRightHand;
+
         if (photonView.IsMine)
         {
             GameObject playerOffset = GameObject.Find("XR Rig/Player Offset");
@@ -79,11 +83,14 @@ public class VRRig : MonoBehaviour
 
             //how longer are the avatar's arms
             avatarArmLength = Vector3.Distance(rightHand.rigTarget.position, head.rigTarget.position);
-            float armOffset = avatarArmLength - playerArmLength;
+            float armOffset = (avatarArmLength - playerArmLength) / 2.0f;
             leftHand.trackingPositionOffset = new Vector3(0, 0, armOffset);
             rightHand.trackingPositionOffset = new Vector3(0, 0, armOffset);
             leftHand.vrTarget.localPosition = leftHand.trackingPositionOffset;
             rightHand.vrTarget.localPosition = rightHand.trackingPositionOffset;
+
+            Transform cam = vrHead.transform.Find("Camera");
+            cam.localPosition = avatarEyeHeadOffset;
         }
     }
 
@@ -115,17 +122,8 @@ public class VRRig : MonoBehaviour
             }
         }
 
-        float reach = animator.GetFloat("RightHand");
-        animator.SetIKPositionWeight(AvatarIKGoal.RightHand, reach);
-        animator.SetIKPosition(AvatarIKGoal.RightHand, rightHandTarget.position);
-        animator.SetIKRotationWeight(AvatarIKGoal.RightHand, reach);
-        animator.SetIKRotation(AvatarIKGoal.RightHand, rightHandTarget.rotation);
-
-        reach = animator.GetFloat("LeftHand");
-        animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, reach);
-        animator.SetIKPosition(AvatarIKGoal.LeftHand, leftHandTarget.position);
-        animator.SetIKRotationWeight(AvatarIKGoal.LeftHand, reach);
-        animator.SetIKRotation(AvatarIKGoal.LeftHand, leftHandTarget.rotation);
+        UpdateHand(true, rightHandTarget.position, rightHandTarget.rotation);
+        UpdateHand(false, leftHandTarget.position, leftHandTarget.rotation);
     }
 
     // Update is called once per frame
@@ -153,6 +151,19 @@ public class VRRig : MonoBehaviour
             }
 
             head.Map(vrHead);
+        }
+    }
+
+    private void UpdateHand(bool isRightHand, Vector3 handPos, Quaternion handRot)
+    {
+        if ((isRightHand) ? vrRightHand : vrLeftHand)
+        {
+            float reach = animator.GetFloat((isRightHand) ? "RightHand" : "LeftHand");
+            AvatarIKGoal ikGoal = (isRightHand) ? AvatarIKGoal.RightHand : AvatarIKGoal.LeftHand;
+            animator.SetIKPositionWeight(ikGoal, reach);
+            animator.SetIKPosition(ikGoal, handPos);
+            animator.SetIKRotationWeight(ikGoal, reach);
+            animator.SetIKRotation(ikGoal, handRot);
         }
     }
 
