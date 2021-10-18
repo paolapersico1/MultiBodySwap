@@ -23,7 +23,7 @@ public class VRMap
 }
 public class VRRig : MonoBehaviour
 {
-    public bool collisionMode;
+    //public bool collisionMode;
 
     public float avatarHeadHeight;
     public float avatarArmLength;
@@ -33,6 +33,10 @@ public class VRRig : MonoBehaviour
     public VRMap head;
     public VRMap leftHand;
     public VRMap rightHand;
+
+    public Transform leftHandCollider;
+    public Transform rightHandCollider;
+    public bool isReplica;
 
     private Transform vrHead;
     private Transform vrLeftHand;
@@ -63,8 +67,12 @@ public class VRRig : MonoBehaviour
 
         XRRig rig = FindObjectOfType<XRRig>();
         vrHead = rig.transform.Find("Player Offset/Camera Offset/Main Camera");
-        vrLeftHand = rig.transform.Find("Player Offset/Camera Offset/LeftHand Controller/LeftHandCollider");
-        vrRightHand = rig.transform.Find("Player Offset/Camera Offset/RightHand Controller/RightHandCollider");
+        vrLeftHand = rig.transform.Find("Player Offset/Camera Offset/LeftHand Controller");
+        vrRightHand = rig.transform.Find("Player Offset/Camera Offset/RightHand Controller");
+
+        head.vrTarget = vrHead;
+        leftHand.vrTarget = vrLeftHand;
+        rightHand.vrTarget = vrRightHand;
 
         head.vrTarget = vrHead;
         leftHand.vrTarget = vrLeftHand;
@@ -91,6 +99,12 @@ public class VRRig : MonoBehaviour
 
             Transform cam = vrHead.transform.Find("Camera");
             cam.localPosition = avatarEyeHeadOffset;
+
+            if (!isReplica)
+            {
+                rightHandCollider = GameObject.FindWithTag("righthand" + this.name.Replace("(Clone)", "")).transform;
+                leftHandCollider = GameObject.FindWithTag("lefthand" + this.name.Replace("(Clone)", "")).transform;
+            } 
         }
     }
 
@@ -98,26 +112,44 @@ public class VRRig : MonoBehaviour
     {
         if (photonView.IsMine)
         {
-            if (vrRightHand)
+            if (isReplica)
             {
-                if (!collisionMode || !HasCollided(vrRightHand))
+                //Debug.Log("replica");
+                Vector3 goalPosition = vrRightHand.TransformPoint(rightHand.trackingPositionOffset);
+                rightHandTarget.position = goalPosition;
+                Quaternion goalRotation = vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset);
+                rightHandTarget.rotation = goalRotation;
+
+                goalPosition = vrLeftHand.TransformPoint(leftHand.trackingPositionOffset);
+                leftHandTarget.position = goalPosition;
+                goalRotation = vrLeftHand.rotation * Quaternion.Euler(leftHand.trackingRotationOffset);
+                leftHandTarget.rotation = goalRotation;
+            }
+            else
+            {
+                //Debug.Log("not replica");
+                if (!HasCollided(rightHandCollider))
                 {
                     Vector3 goalPosition = vrRightHand.TransformPoint(rightHand.trackingPositionOffset);
                     rightHandTarget.position = goalPosition;
-
                     Quaternion goalRotation = vrRightHand.rotation * Quaternion.Euler(rightHand.trackingRotationOffset);
                     rightHandTarget.rotation = goalRotation;
                 }
-            }
-            if (vrLeftHand)
-            {
-                if (!collisionMode || !HasCollided(vrLeftHand))
+                else
+                {
+                    Debug.Log("right");
+                }
+
+                if (!HasCollided(leftHandCollider))
                 {
                     Vector3 goalPosition = vrLeftHand.TransformPoint(leftHand.trackingPositionOffset);
                     leftHandTarget.position = goalPosition;
-
                     Quaternion goalRotation = vrLeftHand.rotation * Quaternion.Euler(leftHand.trackingRotationOffset);
                     leftHandTarget.rotation = goalRotation;
+                }
+                else
+                {
+                    Debug.Log("left");
                 }
             }
         }
@@ -160,6 +192,7 @@ public class VRRig : MonoBehaviour
         {
             float reach = animator.GetFloat((isRightHand) ? "RightHand" : "LeftHand");
             AvatarIKGoal ikGoal = (isRightHand) ? AvatarIKGoal.RightHand : AvatarIKGoal.LeftHand;
+
             animator.SetIKPositionWeight(ikGoal, reach);
             animator.SetIKPosition(ikGoal, handPos);
             animator.SetIKRotationWeight(ikGoal, reach);

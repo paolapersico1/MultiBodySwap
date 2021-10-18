@@ -15,6 +15,7 @@ public enum AvatarType
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
     private GameObject spawnedPlayerPrefab;
+    private GameObject spawnedPlayerPrefabReplica;
     public AvatarType avatarType = AvatarType.None;
 
     public void SetAvatarType(string type)
@@ -52,6 +53,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         base.OnJoinedRoom();
         if (avatarType != AvatarType.None)
         {
+            spawnedPlayerPrefabReplica = PhotonNetwork.Instantiate(avatarType.ToString() + "Replica", transform.position, transform.rotation);
             spawnedPlayerPrefab = PhotonNetwork.Instantiate(avatarType.ToString(), transform.position, transform.rotation);
         }
         else
@@ -64,6 +66,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         base.OnLeftRoom();
         PhotonNetwork.Destroy(spawnedPlayerPrefab);
+        PhotonNetwork.Destroy(spawnedPlayerPrefabReplica);
         avatarType = AvatarType.None;
     }
 

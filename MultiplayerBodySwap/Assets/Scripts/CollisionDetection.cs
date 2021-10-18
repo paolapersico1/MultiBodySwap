@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class CollisionDetection : MonoBehaviour
 {
-    public bool hasCollided = false;
+    public bool hasCollided;
+
+    private void Start()
+    {
+        hasCollided = false;
+    }
 
     void OnTriggerEnter(Collider other)
     {

@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - lefthandMan
+  - righthandMan
+  - Undefined
+  - righthand
+  - lefthandWoman
+  - righthandWoman
   layers:
   - Default
   - TransparentFX
