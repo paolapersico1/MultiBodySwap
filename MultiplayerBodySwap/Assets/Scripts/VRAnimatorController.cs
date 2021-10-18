@@ -17,7 +17,7 @@ public class VRAnimatorController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         XRRig rig = FindObjectOfType<XRRig>();
-        vrHead = rig.transform.Find("Camera Offset/Main Camera");
+        vrHead = rig.transform.Find("Player Offset/Camera Offset/Main Camera");
         previousPos = vrHead.position;
     }
 
