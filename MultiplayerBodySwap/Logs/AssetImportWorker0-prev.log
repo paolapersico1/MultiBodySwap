@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'it' Physical Memory: 15741 MB
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32658 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,378 +11,480 @@ C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap
+C:/Users/VARLAB/Documents/GitHub/MultiBodySwap/MultiplayerBodySwap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55235
-Successfully changed project path to: C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap
-C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap
+57447
+Successfully changed project path to: C:/Users/VARLAB/Documents/GitHub/MultiBodySwap/MultiplayerBodySwap
+C:/Users/VARLAB/Documents/GitHub/MultiBodySwap/MultiplayerBodySwap
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 94.63 ms, found 9 plugins.
+Unable to join player connection multicast group.
+
+Refreshing native plugins compatible for Editor in 92.64 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/paola/Desktop/MultiBodySwap/MultiplayerBodySwap/Assets
+[Subsystems] Discovering subsystems at path C:/Users/VARLAB/Documents/GitHub/MultiBodySwap/MultiplayerBodySwap/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   30.0.14.7196
+    VRAM:     7988 MB
+    Driver:   30.0.14.9613
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002896 seconds.
+Registered in 0.002843 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.35 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 59.97 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.610 seconds
+- Completed reload, in  1.553 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012384 seconds.
+Registered in 0.011277 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.21 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 65.94 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.665 seconds
+- Completed reload, in  2.228 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 9 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2616 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.2 MB.
-System memory in use after: 211.2 MB.
+System memory in use before: 122.2 MB.
+System memory in use after: 122.2 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3108.
-Total: 4.084900 ms (FindLiveObjects: 0.369400 ms CreateObjectMapping: 0.112900 ms MarkObjects: 3.430400 ms  DeleteObjects: 0.170200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Resources/WomanReplica.prefab
-  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85224501207f3255db760f6af4a89364') in 0.296754 seconds
-  Import took 0.303869 seconds .
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3057.
+Total: 4.694800 ms (FindLiveObjects: 0.499800 ms CreateObjectMapping: 0.185200 ms MarkObjects: 3.921800 ms  DeleteObjects: 0.086100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/Resources/ManReplica.prefab
-  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5e919408dad249a21a8d5f1387f40b') in 0.082166 seconds
-  Import took 0.088557 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31ee76e5d2e33c07a9ee66446c86346') in 0.041483 seconds
+  Import took 0.047251 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000500 seconds.
+  Time since last request: 0.002804 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31ee76e5d2e33c07a9ee66446c86346') in 0.004093 seconds
+  Import took 0.009654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.879649 seconds.
+  path: Assets/Scripts/CollisionDetection.cs
+  artifactKey: Guid(bafa98c93f73bf541919a82446f31726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CollisionDetection.cs using Guid(bafa98c93f73bf541919a82446f31726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c48adb6ce00f18865a38fb05f98878') in 0.018468 seconds
+  Import took 0.024994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003176 seconds.
+  path: Assets/Scripts/CollisionDetection.cs
+  artifactKey: Guid(bafa98c93f73bf541919a82446f31726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CollisionDetection.cs using Guid(bafa98c93f73bf541919a82446f31726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c48adb6ce00f18865a38fb05f98878') in 0.005147 seconds
+  Import took 0.011121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.648820 seconds.
+  path: Assets/Scripts/CollisionDetection.cs
+  artifactKey: Guid(bafa98c93f73bf541919a82446f31726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CollisionDetection.cs using Guid(bafa98c93f73bf541919a82446f31726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9282e2a7606c77987e946bfdb3e0cb') in 0.002883 seconds
+  Import took 0.008419 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.4 MB.
+System memory in use after: 118.7 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3062.
+Total: 3.185900 ms (FindLiveObjects: 0.318000 ms CreateObjectMapping: 0.111700 ms MarkObjects: 2.726500 ms  DeleteObjects: 0.028500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.589765 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(1f8cb8dc63300ff4c93ed5f84b35f5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(1f8cb8dc63300ff4c93ed5f84b35f5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af29391aa50a707c8def502974fd0611') in 0.012717 seconds
+  Import took 0.035395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.813733 seconds.
   path: Assets/Resources/Man.prefab
   artifactKey: Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Man.prefab using Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002e55a8b214d06ad08b159afacdf1bd') in 0.054636 seconds
-  Import took 0.060911 seconds .
+Start importing Assets/Resources/Man.prefab using Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5e07b268580831bcf47664505c0630') in 0.228522 seconds
+  Import took 0.234261 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000386 seconds.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Resources/WomanReplica.prefab
+  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f05287ebccdff60bb0af14b274771a') in 0.037818 seconds
+  Import took 0.043624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Resources/ManReplica.prefab
+  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cba9c04e1e190d916d4cd059ad7d987') in 0.030825 seconds
+  Import took 0.036594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
   path: Assets/Resources/Woman.prefab
   artifactKey: Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Woman.prefab using Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4434e470f474cd100032538c15c4663d') in 0.055725 seconds
-  Import took 0.062832 seconds .
+Start importing Assets/Resources/Woman.prefab using Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74652f4db8677d7a4a02ceafa7bbd6fd') in 0.101372 seconds
+  Import took 0.109025 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.679086 seconds.
+  Time since last request: 12.895036 seconds.
   path: Assets/Resources/ManReplica.prefab
   artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c994e6a8aee1cfc1a4322947d899f49c') in 0.043509 seconds
-  Import took 0.050957 seconds .
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf57f0d4d57bb32daa97777a998a6209') in 0.030434 seconds
+  Import took 0.036610 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.963430 seconds.
+  Time since last request: 263.161051 seconds.
   path: Assets/Resources/ManReplica.prefab
   artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580a4bb945ed13dd1d97452022527c6c') in 0.045073 seconds
-  Import took 0.052816 seconds .
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6fd7d0d39668ee103a14311de089ff') in 0.043266 seconds
+  Import took 0.049966 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.165782 seconds.
+  Time since last request: 5.864227 seconds.
   path: Assets/Resources/ManReplica.prefab
   artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd298a58d881e5ae6e590c4e950e29407') in 0.040545 seconds
-  Import took 0.047809 seconds .
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3c7fa4b5247f2e05d7f1235bf34042') in 0.026595 seconds
+  Import took 0.032212 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.986877 seconds.
+  Time since last request: 1.601400 seconds.
   path: Assets/Resources/ManReplica.prefab
   artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9267df364b0b33ecade33c945184061') in 0.038866 seconds
-  Import took 0.045405 seconds .
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca61953262164c6f2b18ca4c8c99bb1') in 0.026879 seconds
+  Import took 0.032749 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.438342 seconds.
+  Time since last request: 3.645446 seconds.
+  path: Assets/Resources/ManReplica.prefab
+  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc98f75fc2cb97e9ac808d290fa8c3b4') in 0.025305 seconds
+  Import took 0.031154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.996039 seconds.
+  path: Assets/Resources/ManReplica.prefab
+  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf8a2296f4e8ec92963e0f41611bac3') in 0.026958 seconds
+  Import took 0.032649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.461622 seconds.
+  path: Assets/Resources/ManReplica.prefab
+  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3536254c3b2a8ae6dcbbec1aa7d36f45') in 0.025071 seconds
+  Import took 0.030812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.823363 seconds.
   path: Assets/Resources/WomanReplica.prefab
   artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5208c524a0fe9f8e69573d665a7f866') in 0.037915 seconds
-  Import took 0.044245 seconds .
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e30cbfdb025562a85df3b79e044091') in 0.032439 seconds
+  Import took 0.039084 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.967935 seconds.
+  Time since last request: 18.194708 seconds.
   path: Assets/Resources/WomanReplica.prefab
   artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a856d784f2acb3e085e52d663c78185') in 0.040034 seconds
-  Import took 0.046513 seconds .
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8d990a135d1587449e5ceaf13450e5') in 0.032220 seconds
+  Import took 0.039000 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.909185 seconds.
+  Time since last request: 7.089693 seconds.
   path: Assets/Resources/WomanReplica.prefab
   artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc28a977dcffa5c7979ba1c4fe3a34f') in 0.039490 seconds
-  Import took 0.047737 seconds .
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fbfdced9c634c12d4241f197cfff27') in 0.027856 seconds
+  Import took 0.036017 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.968934 seconds.
+  Time since last request: 5.658038 seconds.
   path: Assets/Resources/WomanReplica.prefab
   artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a759d39896f59800ec41b645276634') in 0.039165 seconds
-  Import took 0.045942 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012479 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.598 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2561 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 221.4 MB.
-System memory in use after: 221.6 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3120.
-Total: 4.145600 ms (FindLiveObjects: 0.373100 ms CreateObjectMapping: 0.121500 ms MarkObjects: 3.484100 ms  DeleteObjects: 0.164600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013092 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.534 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2561 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 221.5 MB.
-System memory in use after: 221.7 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3125.
-Total: 4.242300 ms (FindLiveObjects: 0.358900 ms CreateObjectMapping: 0.123500 ms MarkObjects: 3.614100 ms  DeleteObjects: 0.144400 ms)
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b2559bb9117f496b953334d9e37ba4') in 0.027847 seconds
+  Import took 0.033910 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 335.025698 seconds.
-  path: Assets/Scripts/VRRig.cs
-  artifactKey: Guid(bff563f525d66f84fa7f4f2499c1a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/VRRig.cs using Guid(bff563f525d66f84fa7f4f2499c1a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d5e1d0372daf74fc893f4d706f6cd5') in 0.011033 seconds
-  Import took 0.016885 seconds .
+  Time since last request: 7.489736 seconds.
+  path: Assets/Resources/WomanReplica.prefab
+  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f19236154bd50d9fdfeac4c42177864') in 0.029125 seconds
+  Import took 0.035402 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.052010 seconds.
-  path: Assets/Scripts/VRRig.cs
-  artifactKey: Guid(bff563f525d66f84fa7f4f2499c1a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/VRRig.cs using Guid(bff563f525d66f84fa7f4f2499c1a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d5e1d0372daf74fc893f4d706f6cd5') in 0.005450 seconds
-  Import took 0.014551 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013150 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.540 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2561 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 221.5 MB.
-System memory in use after: 221.7 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3130.
-Total: 6.068600 ms (FindLiveObjects: 0.489700 ms CreateObjectMapping: 0.195600 ms MarkObjects: 5.221500 ms  DeleteObjects: 0.159300 ms)
+  Time since last request: 136.290404 seconds.
+  path: Assets/Resources/WomanReplica.prefab
+  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a5218d578d029d518a1f51b1d0c4ba') in 0.029561 seconds
+  Import took 0.036367 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 382.563841 seconds.
-  path: Assets/Scripts/VRRig.cs
-  artifactKey: Guid(bff563f525d66f84fa7f4f2499c1a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/VRRig.cs using Guid(bff563f525d66f84fa7f4f2499c1a079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c8798f220ce21ed4aec75d30fd4d82') in 0.009356 seconds
-  Import took 0.015795 seconds .
+  Time since last request: 17.762440 seconds.
+  path: Assets/Resources/WomanReplica.prefab
+  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0180350d05c7830b6d387ac3b5f14e6d') in 0.030101 seconds
+  Import took 0.036652 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.723644 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edcd5f03b9b6f7f1d3cacc8ff59247a') in 0.027511 seconds
-  Import took 0.034748 seconds .
+  Time since last request: 42.438401 seconds.
+  path: Assets/Resources/WomanReplica.prefab
+  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5b5aaa4931350166a613c78b67a061') in 0.028037 seconds
+  Import took 0.035013 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056470 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edcd5f03b9b6f7f1d3cacc8ff59247a') in 0.004773 seconds
-  Import took 0.011265 seconds .
+  Time since last request: 19.246257 seconds.
+  path: Assets/Resources/WomanReplica.prefab
+  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4909e4adf35a422491e94ff14d85e051') in 0.029090 seconds
+  Import took 0.035364 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.160248 seconds.
+  Time since last request: 10.196053 seconds.
   path: Assets/Resources/ManReplica.prefab
   artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9efaec145b45cc5d7f60db2522fb79') in 0.109877 seconds
-  Import took 0.117687 seconds .
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5590a9e7854f173b7c77a96230c51fe3') in 0.026296 seconds
+  Import took 0.032111 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.116039 seconds.
-  path: Assets/Resources/ManReplica.prefab
-  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d40ed764be2fefc1579da946514ba41') in 0.038236 seconds
-  Import took 0.045613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.651127 seconds.
+  Time since last request: 5.852760 seconds.
   path: Assets/Resources/Man.prefab
   artifactKey: Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Man.prefab using Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1f1d899aeb90301eae8cb4d886236a') in 0.043449 seconds
-  Import took 0.050137 seconds .
+Start importing Assets/Resources/Man.prefab using Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c857a310ae9c363edbf2dd4ce56ec') in 0.025436 seconds
+  Import took 0.031375 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.824396 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b961a4849ef72c7bb8532a6ad9a100') in 0.004238 seconds
-  Import took 0.010067 seconds .
+  Time since last request: 8.294911 seconds.
+  path: Assets/Resources/Woman.prefab
+  artifactKey: Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Woman.prefab using Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324bd06414b47f2b1ccc65cbec6984a3') in 0.032296 seconds
+  Import took 0.039219 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.091146 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b961a4849ef72c7bb8532a6ad9a100') in 0.005613 seconds
-  Import took 0.012583 seconds .
+  Time since last request: 168.155747 seconds.
+  path: Assets/Resources/Man.prefab
+  artifactKey: Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man.prefab using Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9763e04697b678b98aa70d00d0b853f5') in 0.031524 seconds
+  Import took 0.038091 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.048763 seconds.
+  Time since last request: 0.000229 seconds.
   path: Assets/Resources/WomanReplica.prefab
   artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1cfae569c76bb1488d51d8885bc2df') in 0.043341 seconds
-  Import took 0.050844 seconds .
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed2447e1a115cc79eb9cd69cbb1f36e') in 0.037092 seconds
+  Import took 0.061606 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.799703 seconds.
-  path: Assets/Resources/WomanReplica.prefab
-  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2d7e502947b3238786ccf78015850a') in 0.040351 seconds
-  Import took 0.048182 seconds .
+  Time since last request: 0.000301 seconds.
+  path: Assets/Resources/ManReplica.prefab
+  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7e8ded275edbf61da9bd734cd2d714') in 0.025976 seconds
+  Import took 0.031774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.197150 seconds.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Resources/Woman.prefab
+  artifactKey: Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Woman.prefab using Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6466ea7a7a3aa3c499d9a48bf9cf74f0') in 0.028780 seconds
+  Import took 0.034409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.407601 seconds.
+  path: Assets/Resources/Man.prefab
+  artifactKey: Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man.prefab using Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca86748dcc6ea23707a5cda238cdda3') in 0.030691 seconds
+  Import took 0.036401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
   path: Assets/Resources/WomanReplica.prefab
   artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bae9d01736e3e7b19078a371663f3ab') in 0.042640 seconds
-  Import took 0.050504 seconds .
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84faa69546756c2bfa40d7e19dccfd3a') in 0.041329 seconds
+  Import took 0.047106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Resources/ManReplica.prefab
+  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9339de1ed6d77d2d3b549c815f312cd3') in 0.028071 seconds
+  Import took 0.033871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/Woman.prefab
+  artifactKey: Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Woman.prefab using Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989454d50d941f225bc15b138d37e759') in 0.027743 seconds
+  Import took 0.033564 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013597 seconds.
+Registered in 0.010682 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.517 seconds
+- Completed reload, in  1.434 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2561 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 221.6 MB.
-System memory in use after: 221.8 MB.
+Unloading 2560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.9 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3136.
-Total: 4.459100 ms (FindLiveObjects: 0.364000 ms CreateObjectMapping: 0.111300 ms MarkObjects: 3.826000 ms  DeleteObjects: 0.155300 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3074.
+Total: 3.945300 ms (FindLiveObjects: 0.441500 ms CreateObjectMapping: 0.141500 ms MarkObjects: 3.321000 ms  DeleteObjects: 0.039700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012497 seconds.
+Registered in 0.012403 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.569 seconds
+- Completed reload, in  1.491 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2561 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 221.5 MB.
-System memory in use after: 221.7 MB.
+Unloading 2560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.9 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3141.
-Total: 4.294300 ms (FindLiveObjects: 0.379300 ms CreateObjectMapping: 0.126000 ms MarkObjects: 3.637300 ms  DeleteObjects: 0.149800 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3079.
+Total: 3.469400 ms (FindLiveObjects: 0.414700 ms CreateObjectMapping: 0.119600 ms MarkObjects: 2.908400 ms  DeleteObjects: 0.025400 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013186 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.549 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2561 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 221.6 MB.
-System memory in use after: 221.8 MB.
+Received Import Request.
+  Time since last request: 251.663661 seconds.
+  path: Assets/Resources/Man.prefab
+  artifactKey: Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man.prefab using Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25abaa86912a8577de41c1ef82ea6d0b') in 0.399462 seconds
+  Import took 0.408455 seconds .
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3146.
-Total: 4.830300 ms (FindLiveObjects: 0.378100 ms CreateObjectMapping: 0.130600 ms MarkObjects: 4.160100 ms  DeleteObjects: 0.158900 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Resources/WomanReplica.prefab
+  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa4fb47f23aa3b8bf439176bcca5a48') in 0.037840 seconds
+  Import took 0.063327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Resources/ManReplica.prefab
+  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c041070c970d36d81b8fb5067b3ffa1') in 0.053794 seconds
+  Import took 0.063288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Resources/Woman.prefab
+  artifactKey: Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Woman.prefab using Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf54cb4e0cbbfb7ce7d38371fa2a054') in 0.039886 seconds
+  Import took 0.047001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.852346 seconds.
+  path: Assets/Resources/Man.prefab
+  artifactKey: Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Man.prefab using Guid(a8835b634a47f484294acec9cd47e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66934f820b46c9002d803bf27e760eec') in 0.034762 seconds
+  Import took 0.040556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/WomanReplica.prefab
+  artifactKey: Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/WomanReplica.prefab using Guid(cbe230e99822b0a4e8d2511563621d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a806b6813ef895bc6d34ecc2656e5034') in 0.051691 seconds
+  Import took 0.058367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Resources/ManReplica.prefab
+  artifactKey: Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ManReplica.prefab using Guid(df1473bd2551ef8449b20b198f258db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b811ac61021aba74016feffaa8279b') in 0.042988 seconds
+  Import took 0.049441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Resources/Woman.prefab
+  artifactKey: Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Woman.prefab using Guid(2897e1a623f93aa4587261ec23e50e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca316a9e6747c23e346cb5b680790f6b') in 0.033240 seconds
+  Import took 0.040503 seconds .
 
