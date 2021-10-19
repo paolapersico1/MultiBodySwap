@@ -46,10 +46,12 @@ public class VRRig : MonoBehaviour
     public int rotThreshold;
     public float turnSmoothness;
     public float crouchingThreshold;
+    public float crouchSmoothness;
+    public LayerMask floorLayer;
 
     //DEBUG
     public float handsTorsoRotation;
-    public bool isCrouched;
+    public bool isLookingDown;
 
     public Transform leftHandTarget;
     public Transform rightHandTarget;
@@ -163,10 +165,12 @@ public class VRRig : MonoBehaviour
     {
         if (photonView.IsMine)
         {
+            isLookingDown = IsLookingDown(head.rigTarget);
+
             transform.position = new Vector3(head.rigTarget.position.x,
-                                IsCrouched(head.rigTarget.position) ? head.rigTarget.position.y - avatarHeadHeight :
-                                                                      transform.position.y,
-                                head.rigTarget.position.z);
+                                        isLookingDown? transform.position.y :
+                                            Mathf.Lerp(transform.position.y, head.rigTarget.position.y - avatarHeadHeight, Time.deltaTime * crouchSmoothness),
+                                        head.rigTarget.position.z);
 
             Vector3 handsPosition = Vector3.Lerp(rightHand.rigTarget.position, leftHand.rigTarget.position, 0.5f);
 
@@ -200,19 +204,19 @@ public class VRRig : MonoBehaviour
         }
     }
 
-    private bool IsCrouched(Vector3 headPosition)
+   private bool IsLookingDown(Transform head)
     {
         RaycastHit hit;
-        Ray ray = new Ray(headPosition, Vector3.down);
+        Ray ray = new Ray(head.position, head.forward);
 
-        if(Physics.Raycast(ray, out hit))
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, floorLayer.value))
         {
-            float distance = Vector3.Distance(headPosition, hit.transform.position);
+            float distance = Vector3.Distance(head.position, hit.point);
             if (distance < (avatarHeadHeight * crouchingThreshold))
-                return false;
+                return true;
         }
 
-        return true;
+        return false;
     }
 
     private bool HasCollided(Transform bodyPart) => bodyPart.gameObject.GetComponent<CollisionDetection>().HasCollided();

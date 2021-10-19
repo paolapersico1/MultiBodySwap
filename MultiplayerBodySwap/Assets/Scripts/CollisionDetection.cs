@@ -16,6 +16,11 @@ public class CollisionDetection : MonoBehaviour
         hasCollided = true;
     }
 
+    void OnTriggerStay(Collider other)
+    {
+        hasCollided = true;
+    }
+
     void OnTriggerExit(Collider other)
     {
         hasCollided = false;
