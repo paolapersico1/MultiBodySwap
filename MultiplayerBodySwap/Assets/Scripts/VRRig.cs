@@ -96,8 +96,8 @@ public class VRRig : MonoBehaviour
             float armOffset = (avatarArmLength - playerArmLength) / 2.0f;
             leftHand.trackingPositionOffset = new Vector3(0, 0, armOffset);
             rightHand.trackingPositionOffset = new Vector3(0, 0, armOffset);
-            leftHand.vrTarget.localPosition = leftHand.trackingPositionOffset;
-            rightHand.vrTarget.localPosition = rightHand.trackingPositionOffset;
+            //leftHand.vrTarget.localPosition = leftHand.trackingPositionOffset;
+            //rightHand.vrTarget.localPosition = rightHand.trackingPositionOffset;
 
             Transform cam = vrHead.transform.Find("Camera");
             cam.localPosition = avatarEyeHeadOffset;
