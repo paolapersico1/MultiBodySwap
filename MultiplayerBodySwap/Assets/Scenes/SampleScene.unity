@@ -810,7 +810,7 @@ GameObject:
   - component: {fileID: 385233118}
   - component: {fileID: 385233117}
   m_Layer: 0
-  m_Name: HMD Info Manager
+  m_Name: Application Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

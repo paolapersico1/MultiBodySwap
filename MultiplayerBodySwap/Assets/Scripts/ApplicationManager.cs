@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR;
 
 public class HMDInfoManager : MonoBehaviour
@@ -30,6 +31,10 @@ public class HMDInfoManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+        else if (Input.GetKeyDown(KeyCode.Space))
+            //restart scene
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 }
