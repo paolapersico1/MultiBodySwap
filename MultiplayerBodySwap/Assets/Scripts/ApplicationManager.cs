@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.XR;
 
-public class HMDInfoManager : MonoBehaviour
+public class ApplicationManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
